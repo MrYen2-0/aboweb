@@ -3,7 +3,10 @@
 }
 body {
   font-size: 14px;
+  margin: 0; /* Eliminar los márgenes predeterminados del cuerpo */
+  padding: 0; /* Eliminar el relleno predeterminado del cuerpo */
 }
+
 .v1_21 {
   width: 100%;
   height: 4052px;
@@ -48,11 +51,9 @@ body {
   left: 570px;
   overflow: hidden;
 }
-.name {
-  color: #fff;
-}
+
 .v1_53 {
-  width: 100%;
+  width: 80%;
   height: 465px;
   background: url("");
   background-repeat: no-repeat;
@@ -65,7 +66,7 @@ body {
   overflow: hidden;
 }
 .v1_54 {
-  width: 100%;
+  width: 80%;
   height: 435px;
   background: rgba(250,250,250,1);
   opacity: 1;
@@ -161,9 +162,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.name {
-  color: #fff;
-}
+
 .v1_64 {
   width: 400px;
   color: rgba(0,0,0,1);
@@ -224,9 +223,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.name {
-  color: #fff;
-}
+
 .v1_79 {
   width: 204px;
   color: rgba(189,189,189,1);
@@ -310,9 +307,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.name {
-  color: #fff;
-}
+
 .v1_87 {
   width: 237px;
   color: rgba(255,255,255,1);
@@ -463,7 +458,7 @@ body {
 .v1_101 {
   width: 193px;
   height: 64px;
-  background: rgba(255,255,255,1);
+  background: rgba(8,19,64,1);
   opacity: 1;
   position: absolute;
   top: 58px;
@@ -715,19 +710,7 @@ body {
   left: 57px;
   overflow: hidden;
 }
-.v1_137 {
-  width: 100%;
-  height: 603px;
-  background: url("");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 2912px;
-  left: 135px;
-  overflow: hidden;
-}
+
 .v1_138 {
   width: 359px;
   color: rgba(189,189,189,1);
@@ -811,9 +794,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.name {
-  color: #fff;
-}
+
 .v1_146 {
   width: 391px;
   height: 46px;
@@ -925,13 +906,15 @@ body {
 .v1_161 {
   width: 100%;
   height: 138px;
-  background: rgba(255,255,255,1);
+  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   overflow: hidden;
 }
+
 .v1_204 {
   width: 68px;
   color: rgba(51,51,51,1);
@@ -1015,7 +998,7 @@ body {
 .v804_44 {
   width: 176px;
   height: 138px;
-  background: url("/aboweb/public/images/v804_44.png");
+  background-image: url('../images/IconoB_preview_rev_1.png'); /* Ruta relativa a la carpeta "public" */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1023,8 +1006,8 @@ body {
   position: absolute;
   top: 0px;
   left: 59px;
-  overflow: hidden;
 }
+
 .v818_288 {
   width: 112px;
   height: 112px;
