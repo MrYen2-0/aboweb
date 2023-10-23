@@ -1,15 +1,14 @@
-* {
-  box-sizing: border-box;
-}
+
 body {
   font-size: 14px;
   margin: 0; /* Eliminar los márgenes predeterminados del cuerpo */
-  padding: 0; /* Eliminar el relleno predeterminado del cuerpo */
+  padding: 0;
+  width: 90%;
 }
 
-.v1_21 {
+.Cotenedor-global {
   width: 100%;
-  height: 4052px;
+  height: auto;
   background: rgba(255,255,255,1);
   opacity: 1;
   position: relative;
@@ -17,45 +16,113 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v1_22 {
-  width: 277px;
-  color: rgba(189,189,189,1);
+.contenedor-header {
+  width: 98%;
+  height: 138px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.contenedor-header .menu-item {
+  color: rgba(51, 51, 51, 1);
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 12px;
+  text-align: left;
+  margin: 0 10px; 
+}
+
+.contenedor-header .separator {
+  width: 68px;
+  height: 1px;
+  background: rgba(51, 51, 51, 1);
+  opacity: 1;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
+
+.contenedor-header .icono {
+  width: 176px;
+  height: 138px;
+  background-image: url('../images/IconoB_preview_rev_1.png'); /* Ruta relativa a la carpeta "public" */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
   position: absolute;
-  top: 438px;
-  left: 134px;
+  top: 0;
+  left: 0;
+}
+
+.contenedor-header .imagen {
+  width: 112px;
+  height: 112px;
+  background: url("/aboweb/public/images/v818_288.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 12px;
+  right: 10px; 
+}
+
+.contenedor-titulo {
+  display: flex;
+  width: auto;
+  height: auto;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.titulos {
+  display: flex; /* Utiliza flexbox para alinear elementos horizontalmente */
+  flex-direction: column; /* Apila elementos verticalmente */
+  margin: 0 250px; /* Agrega un margen a la izquierda y a la derecha */
+  margin-top: 160px;
+}
+
+
+.v1_22 {
+  width: auto; /* Ancho automático en función del contenido */
+  color: rgba(189, 189, 189, 1);
   font-family: Roboto;
   font-weight: Light;
   font-size: 64px;
   opacity: 1;
   text-align: left;
+  margin-right: 20px; /* Espacio entre los elementos */
 }
+
 .v1_23 {
   width: 267px;
-  color: rgba(0,102,255,0.8100000023841858);
-  position: absolute;
-  top: 502px;
-  left: 135px;
+  color: rgba(0, 102, 255, 0.81);
   font-family: Roboto;
   font-weight: Bold;
   font-size: 64px;
   opacity: 1;
   text-align: left;
+  margin-right: 20px;
 }
 .v1_24 {
   width: 673px;
   height: 724px;
   background: rgba(196,196,196,1);
   opacity: 1;
-  position: absolute;
   top: 230px;
   left: 570px;
   overflow: hidden;
 }
 
-.v1_53 {
-  width: 80%;
+.contenedor-info {
+  width: 85%;
   height: 465px;
-  background: url("");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -63,16 +130,6 @@ body {
   position: absolute;
   top: 1054px;
   left: 135px;
-  overflow: hidden;
-}
-.v1_54 {
-  width: 80%;
-  height: 435px;
-  background: rgba(250,250,250,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
   overflow: hidden;
 }
 .v1_55 {
@@ -127,16 +184,6 @@ body {
   left: 700px;
   overflow: hidden;
 }
-.v1_60 {
-  width: 222px;
-  height: 71px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
 .v1_61 {
   width: 123px;
   height: 24px;
@@ -176,7 +223,7 @@ body {
   text-align: left;
 }
 .v1_73 {
-  width: 100%;
+  width: 90%;
   height: 765px;
   background: url("");
   background-repeat: no-repeat;
@@ -402,38 +449,6 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v1_95 {
-  width: 100%;
-  height: 417px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 3635px;
-  left: 0px;
-  overflow: hidden;
-}
-.v1_96 {
-  width: 100%;
-  height: 417px;
-  background: url("");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v1_97 {
-  width: 100%;
-  height: 417px;
-  background: rgba(8,19,64,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
 .v1_98 {
   width: 100%;
   background: rgba(215,215,215,1);
@@ -455,248 +470,205 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v1_101 {
-  width: 193px;
-  height: 64px;
-  background: rgba(8,19,64,1);
-  opacity: 1;
-  position: absolute;
-  top: 58px;
-  left: 1035px;
-  overflow: hidden;
+.footer-info {
+  display: flex;
+  flex-direction: column; /* Apila elementos verticalmente */
+  margin-left: 100px; /* Agrega un margen a la izquierda para separar del borde izquierdo */
+  width: auto; /* Ancho automático en función del contenido */
+  height: auto;
 }
+
+/* Estilos para los elementos internos */
+.footer-info > div {
+  font-size: 17px; /* Ajusta el tamaño de fuente según tus preferencias */
+  padding: 10px 0; /* Agrega espacio vertical y horizontal alrededor de los elementos */
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row; /* Alinea elementos en una fila horizontal */
+  width: auto; /* Ancho automático en función del contenido */
+  height: auto;
+  margin-bottom: 100px;
+}
+
+/* Estilos para los elementos internos */
+.footer-container > div {
+  margin-right: 60px; /* Agrega un margen derecho para separar los elementos */
+}
+
+
+/* Estilos para los elementos específicos en .footer-social */
 .v1_102 {
   width: 117px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 1px;
-  left: 1px;
+  color: rgba(255, 255, 255, 1);
+  top:0px;
+  left:0px;
   font-family: Roboto;
   font-weight: Bold;
   font-size: 16px;
   opacity: 1;
   text-align: left;
 }
+
 .v1_104 {
   width: 9px;
   height: 18px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 43px;
-  left: 26px;
+  background: rgba(255, 255, 255, 1);
+  top:0px;
+  left:0px;
 }
+
 .v1_106 {
   width: 21px;
   height: 16px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 46px;
-  left: 75px;
+  background: rgba(255, 255, 255, 1);
+  top:0px;
+  left:0px;
 }
-.v1_116 {
-  width: 605px;
-  height: 229px;
-  background: url("");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+
+.contenedor-footer {
+  width: 100%;
+  height: 417px;
   opacity: 1;
   position: absolute;
-  top: 58px;
-  left: 360px;
+  top: 3635px;
+  left: 0px;
+  background: rgba(8,19,64,1);
+  display: flex; /* Utiliza display: flex; para centrar verticalmente los elementos */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  align-items: center; /* Centra verticalmente los elementos */
   overflow: hidden;
 }
-.v1_117 {
-  width: 117px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 149px;
-  left: 291px;
-  font-family: Roboto;
-  font-weight: Medium;
-  font-size: 14px;
+.v1_96 {
+  width: 100%;
+  height: 50vh; /* Utiliza el 50% de la altura de la ventana */
   opacity: 1;
-  text-align: left;
-}
-.v1_118 {
-  width: 181px;
-  color: rgba(255,255,255,1);
   position: absolute;
-  top: 205px;
-  left: 291px;
-  font-family: Roboto;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_120 {
-  width: 82px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 45px;
-  left: 1px;
-  font-family: Roboto;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_121 {
-  width: 56px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 85px;
-  left: 1px;
-  font-family: Roboto;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_122 {
-  width: 61px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 125px;
-  left: 1px;
-  font-family: Roboto;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_123 {
-  width: 94px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 165px;
-  left: 1px;
-  font-family: Roboto;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_124 {
-  width: 102px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 205px;
-  left: 1px;
-  font-family: Roboto;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_125 {
-  width: 103px;
-  color: rgba(255,255,255,1);
-  position: absolute;
+  background: rgba(8,19,64,1);
   top: 0px;
   left: 0px;
+}
+/* Estilos comunes para todos los elementos */
+.v1_120, .v1_121, .v1_122, .v1_123, .v1_124, .v1_125{
+  color: rgba(255, 255, 255, 1);
   font-family: Roboto;
-  font-weight: Bold;
-  font-size: 16px;
+  font-weight: Medium;
   opacity: 1;
   text-align: left;
 }
+
+.v1_120 {
+  width: 82px;
+  font-size: 14px;
+  top: 45px;
+  left: 1px;
+}
+
+.v1_121 {
+  width: 56px;
+  font-size: 14px;
+  top: 85px;
+  left: 1px;
+}
+
+.v1_122 {
+  width: 61px;
+  font-size: 14px;
+  top: 125px;
+  left: 1px;
+}
+
+.v1_123 {
+  width: 94px;
+  font-size: 14px;
+  top: 165px;
+  left: 1px;
+}
+
+.v1_124 {
+  width: 102px;
+  font-size: 14px;
+  top: 205px;
+  left: 1px;
+}
+
+.v1_125 {
+  width: 103px;
+  font-weight: Bold;
+  font-size: 16px;
+  top: 0px;
+  left: 0px;
+}
+
+/* Estilos comunes para todos los elementos */
+.v1_126, .v1_117, .v1_118, .v1_130, .v1_131, .v1_132, .v1_133, .v1_134, .v1_135, .v1_136 {
+  color: rgba(255, 255, 255, 1);
+  font-family: Roboto;
+  font-weight: Medium;
+  opacity: 1;
+  text-align: left;
+}
+
 .v1_126 {
   width: 75px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 0px;
-  left: 260px;
-  font-family: Roboto;
   font-weight: Bold;
   font-size: 16px;
-  opacity: 1;
-  text-align: left;
+  top: 0px;
+  left: 260px;
 }
+
+.v1_117 {
+  width: 117px;
+  font-size: 14px;
+  top: 149px;
+  left: 291px;
+}
+
+.v1_118 {
+  width: 181px;
+  font-size: 14px;
+  top: 205px;
+  left: 291px;
+}
+
+.v1_130, .v1_131, .v1_132, .v1_133, .v1_134, .v1_135 {
+  width: 16px;
+  height: 16px;
+  top: 0px;
+  left: 0px;
+  opacity: 1;
+}
+
 .v1_130 {
   width: 11px;
   height: 16px;
-  background: url("");
-  opacity: 1;
-  position: absolute;
-  top: 45px;
   left: 261px;
-  border: 1px solid rgba(255,255,255,1);
+  border: 1px solid rgba(255, 255, 255, 1);
 }
-.v1_131 {
-  width: 16px;
+
+.v1_131, .v1_132, .v1_134 {
   height: 15px;
   background: url("");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 149px;
   left: 261px;
   overflow: hidden;
 }
-.v1_132 {
-  width: 16px;
-  height: 15px;
-  background: url("");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v1_133 {
-  width: 16px;
-  height: 15px;
-  background: url("");
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border: 1px solid rgba(255,255,255,1);
-}
+
 .v1_134 {
-  width: 16px;
   height: 11px;
-  background: url("");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 210px;
-  left: 261px;
-  overflow: hidden;
+  border: 0.8px solid rgba(255, 255, 255, 1);
 }
-.v1_135 {
-  width: 16px;
-  height: 11px;
-  background: url("");
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border: 0.800000011920929px solid rgba(255,255,255,1);
-}
+
 .v1_136 {
   width: 314px;
-  color: rgba(255,255,255,1);
-  position: absolute;
+  font-size: 14px;
   top: 45px;
   left: 291px;
-  font-family: Roboto;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
 }
+
 .v834_118 {
   width: 251px;
   height: 237px;
@@ -901,123 +873,5 @@ body {
   position: relative;
   top: 0px;
   left: 0px;
-  overflow: hidden;
-}
-.v1_161 {
-  width: 100%;
-  height: 138px;
-  background: rgba(255, 255, 255, 1);
-  opacity: 1;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  overflow: hidden;
-}
-
-.v1_204 {
-  width: 68px;
-  color: rgba(51,51,51,1);
-  position: absolute;
-  top: 60px;
-  left: 549px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 12px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_205 {
-  width: 63px;
-  color: rgba(51,51,51,1);
-  position: absolute;
-  top: 60px;
-  left: 663px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 12px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_206 {
-  width: 86px;
-  color: rgba(51,51,51,1);
-  position: absolute;
-  top: 60px;
-  left: 779px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 12px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_207 {
-  width: 127px;
-  color: rgba(51,51,51,1);
-  position: absolute;
-  top: 60px;
-  left: 1075px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 12px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_208 {
-  width: 123px;
-  color: rgba(51,51,51,1);
-  position: absolute;
-  top: 60px;
-  left: 920px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 12px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_209 {
-  width: 68px;
-  height: 1px;
-  background: rgba(51,51,51,1);
-  opacity: 1;
-  position: absolute;
-  top: 81px;
-  left: 535px;
-  overflow: hidden;
-}
-.v1_210 {
-  width: 68px;
-  height: 1px;
-  background: rgba(51,51,51,1);
-  opacity: 1;
-  position: absolute;
-  top: 53px;
-  left: 535px;
-  overflow: hidden;
-}
-.v804_44 {
-  width: 176px;
-  height: 138px;
-  background-image: url('../images/IconoB_preview_rev_1.png'); /* Ruta relativa a la carpeta "public" */
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 59px;
-}
-
-.v818_288 {
-  width: 112px;
-  height: 112px;
-  background: url("/aboweb/public/images/v818_288.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 12px;
-  left: 1286px;
   overflow: hidden;
 }
