@@ -84,7 +84,7 @@ body {
   .titulos {
     display: flex; /* Utiliza flexbox para alinear elementos horizontalmente */
     flex-direction: column; /* Apila elementos verticalmente */
-    margin: 0 250px; /* Agrega un margen a la izquierda y a la derecha */
+    margin: 0 200px; /* Agrega un margen a la izquierda y a la derecha */
     margin-top: 160px;
   }
   
@@ -118,59 +118,45 @@ body {
     background-size: cover;
     opacity: 1;
     overflow: hidden;
-    margin-left: 150px;
+    margin-left: 100px;
   }
   .imagenes-info {
-    width: 270px;
-    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columnas con igual ancho */
+    gap: 10px; /* Espacio entre los elementos */
+    flex-wrap: wrap; /* Envuelve las imágenes en filas y columnas */
+
   }
-  .v1_56 {
-    width: 270px;
-    height: 265px;
+
+  .v1_56, .v1_57, .v1_58, .v1_59, .v1_60{
+    width: 350px;
+    height: 305px;
+    margin-right: 20px; /* Espacio entre las imágenes */
+    margin-bottom: 20px; /* Espacio entre las filas de imágenes */
     background: rgba(196, 196, 196, 1);
     opacity: 1;
-    top: 100px; /* Ajusta la posición vertical para centrar */
-    left: 30px; /* Ajusta la posición horizontal para separación */
     overflow: hidden;
   }
   
+  /* Estilos adicionales para los elementos (ajusta según tus necesidades) */
   .v1_57 {
-    width: 270px;
-    height: 345px;
     background: rgb(225, 54, 54);
-    opacity: 1;
-    top: 100px; /* Ajusta la posición vertical para centrar */
-    left: 350px; /* Ajusta la posición horizontal para separación */
-    overflow: hidden;
   }
   
   .v1_58 {
-    width: 270px;
-    height: 140px;
     background: rgba(196, 196, 196, 1);
-    opacity: 1;
-    top: 100px; /* Ajusta la posición vertical para centrar */
-    left: 670px; /* Ajusta la posición horizontal para separación */
-    overflow: hidden;
   }
+  
+  
   .contenedor-info {
     display: flex;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 100px;
   }
   
   .imagenes-info {
     display: flex;
     width: auto;
-  }
-  
-  .v1_56,
-  .v1_57,
-  .v1_58 {
-    width: 270px;
-    height: 265px;
-    background: rgba(196, 196, 196, 1);
-    margin-right: 20px; /* Espacio entre las imágenes */
   }
   .v1_74 {
     width: 221px;

@@ -24,13 +24,19 @@ function Page() {
   </div>
 </div>
         <div className="contenedor-info">
-          <div className="imagenes-info">
-          <div className="v1_56"></div>
-          <div className="v1_57"></div>
-          <div className="v1_58"></div>
-          </div>
-          
-      </div>
+        <div class="imagenes-info">
+    <div class="v1_56"></div>
+    <div class="v1_57"></div>
+    <div class="v1_58"></div>
+    <div class="v1_59"></div>
+    <div class="v1_60"></div>
+    <div class="v1_56"></div>
+    <div class="v1_57"></div>
+    <div class="v1_58"></div>
+    <div class="v1_59"></div>
+    <div class="v1_60"></div>
+</div>    
+</div>
       <div className="contenedor-footer">
         <div className="footer-container">
           <div className="footer-info">
