@@ -1,4 +1,4 @@
-import './globals.css';
+import '../galeria/galeria.css';
 function Page() {
   return (
     <div>
@@ -21,26 +21,35 @@ function Page() {
   <div className="v1_24"></div>
 </div>
         <div className="contenedor-info">
-          <div className="v1_55">Acerca de la empresa</div>
+          <div className="imagenes-info">
           <div className="v1_56"></div>
           <div className="v1_57"></div>
           <div className="v1_58"></div>
-          <div className="v1_59">
-           <div className="v1_61">
-              <div className="v1_62">Leer mas</div>
           </div>
-        </div>
-        <div className="v1_64">
+          <div className="texto-info">
+          <div className="v1_55">Acerca de la empresa</div>
+          <div className="v1_64">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry...
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry...Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry... Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry...
+          industry... 
+        </div>
+        <div className="v1_61">
+              <div className="v1_62">Leer mas</div>
+          </div>
         </div>
       </div>
       <div className="v1_73">
         <div className="v1_79">Edificio</div>
+        <div className="texto-oficina">Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry...
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry...Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry... Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry...Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry...
+          </div>
         <div className="v1_80"></div>
         <div className="v1_81"></div>
         <div className="v1_82">
@@ -49,7 +58,8 @@ function Page() {
               <div className="v1_85">Mas</div>
               <div className="name"></div>
             </div>
-            <div className="v1_87">Oficinas</div>
+            <div className="v1_87">Oficinas
+            </div>
           </div>
         </div>
         <div className="v1_88"></div>
@@ -59,12 +69,6 @@ function Page() {
         <div className="v1_92"></div>
         <div className="v1_93"></div>
         <div className="v1_94"></div>
-        <div className="texto-oficina">Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry...
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry...Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry... Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry...</div>
       </div>
       <div className="contenedor-footer">
         <div className="footer-container">

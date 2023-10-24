@@ -3,7 +3,7 @@ body {
   font-size: 14px;
   margin: 0; /* Eliminar los márgenes predeterminados del cuerpo */
   padding: 0;
-  width: 90%;
+  width: 100%;
 }
 
 .Cotenedor-global {
@@ -32,9 +32,9 @@ body {
   color: rgba(51, 51, 51, 1);
   font-family: Roboto;
   font-weight: Regular;
-  font-size: 12px;
+  font-size: 20px;
   text-align: left;
-  margin: 0 10px; 
+  margin: 0 5px; 
 }
 
 .contenedor-header .separator {
@@ -78,7 +78,7 @@ body {
   width: auto;
   height: auto;
   align-items: flex-start;
-  padding: 20px;
+  padding: 40px;
 }
 
 .titulos {
@@ -121,69 +121,83 @@ body {
 }
 
 .contenedor-info {
-  width: 85%;
-  height: 465px;
+  width: 100%;
+  height: auto;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
-  top: 1054px;
-  left: 135px;
   overflow: hidden;
+  margin-left: 150px;
 }
-.v1_55 {
-  width: 470px;
-  color: rgba(189,189,189,1);
-  position: absolute;
-  top: 30px;
-  left: 700px;
-  font-family: Roboto;
-  font-weight: Light;
-  font-size: 48px;
-  opacity: 1;
-  text-align: left;
+.imagenes-info {
+  width: 270px;
+  height: auto;
 }
 .v1_56 {
   width: 270px;
   height: 265px;
-  background: rgba(196,196,196,1);
+  background: rgba(196, 196, 196, 1);
   opacity: 1;
-  position: absolute;
-  top: 30px;
-  left: 100px;
+  top: 100px; /* Ajusta la posición vertical para centrar */
+  left: 30px; /* Ajusta la posición horizontal para separación */
   overflow: hidden;
 }
+
 .v1_57 {
   width: 270px;
   height: 345px;
-  background: rgba(196,196,196,1);
+  background: rgb(225, 54, 54);
   opacity: 1;
-  position: absolute;
-  top: 60px;
-  left: 400px;
+  top: 100px; /* Ajusta la posición vertical para centrar */
+  left: 350px; /* Ajusta la posición horizontal para separación */
   overflow: hidden;
 }
+
 .v1_58 {
   width: 270px;
   height: 140px;
-  background: rgba(196,196,196,1);
+  background: rgba(196, 196, 196, 1);
   opacity: 1;
-  position: absolute;
-  top: 325px;
-  left: 100px;
+  top: 100px; /* Ajusta la posición vertical para centrar */
+  left: 670px; /* Ajusta la posición horizontal para separación */
   overflow: hidden;
 }
-.v1_59 {
-  width: 222px;
-  height: 71px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 334px;
-  left: 700px;
-  overflow: hidden;
+.contenedor-info {
+  display: flex;
+  align-items: center;
+  margin-top: 300px;
 }
+
+.imagenes-info {
+  display: flex;
+  width: auto;
+}
+
+.v1_56,
+.v1_57,
+.v1_58 {
+  width: 270px;
+  height: 265px;
+  background: rgba(196, 196, 196, 1);
+  margin-right: 20px; /* Espacio entre las imágenes */
+}
+
+.texto-info {
+  width: 422px;
+  background: rgba(255, 255, 255, 1);
+  padding: 20px; /* Espacio interno para mejorar la apariencia */
+}
+
+.v1_55 {
+  width: 470px;
+  color: rgba(189, 189, 189, 1);
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 48px;
+  text-align: left;
+}
+
 .v1_61 {
   width: 123px;
   height: 24px;
@@ -191,37 +205,26 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 23px;
-  left: 35px;
   overflow: hidden;
 }
+
 .v1_62 {
-  width: 73px;
-  color: rgba(51,51,51,1);
-  position: absolute;
-  top: 6px;
-  left: 0px;
+  color: rgba(51, 51, 51, 1);
   font-family: Roboto;
   font-weight: Regular;
   font-size: 12px;
-  opacity: 1;
   text-align: left;
 }
 
 .v1_64 {
   width: 400px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 114px;
-  left: 700px;
+  color: rgba(0, 0, 0, 1);
   font-family: Roboto;
   font-weight: Light;
   font-size: 16px;
-  opacity: 1;
   text-align: left;
 }
+
 .v1_73 {
   width: 90%;
   height: 765px;
@@ -282,6 +285,10 @@ body {
   font-size: 64px;
   opacity: 1;
   text-align: left;
+}
+.texto-oficina{
+  width: 85%;
+  margin-bottom: 20px;
 }
 .v1_80 {
   width: 570px;
