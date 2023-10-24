@@ -8,7 +8,7 @@ function Page() {
       <div className="contenedor-header">
   <div className="v1_161"></div>
   <div className="menu-item">Menu</div>
-  <Link href="/src/app/galeria">
+  <Link href="/galeria">
   <div className="menu-item">Galeria</div>
 </Link>
   <div className="menu-item">Abogados</div>

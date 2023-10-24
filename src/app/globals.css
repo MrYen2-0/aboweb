@@ -166,7 +166,7 @@ body {
 .contenedor-info {
   display: flex;
   align-items: center;
-  margin-top: 300px;
+  margin-top: 200px;
 }
 
 .imagenes-info {
@@ -234,7 +234,7 @@ body {
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 2027px;
+  top: 1327px;
   left: 135px;
   overflow: hidden;
 }
@@ -537,9 +537,8 @@ body {
 .contenedor-footer {
   width: 100%;
   height: 417px;
-  opacity: 1;
   position: absolute;
-  top: 3635px;
+  top: 3935px;
   left: 0px;
   background: rgba(8,19,64,1);
   display: flex; /* Utiliza display: flex; para centrar verticalmente los elementos */

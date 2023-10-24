@@ -110,16 +110,6 @@ body {
     text-align: left;
     margin-right: 20px;
   }
-  .v1_24 {
-    width: 673px;
-    height: 724px;
-    background: rgba(196,196,196,1);
-    opacity: 1;
-    top: 230px;
-    left: 570px;
-    overflow: hidden;
-  }
-  
   .contenedor-info {
     width: 100%;
     height: auto;
@@ -182,62 +172,6 @@ body {
     background: rgba(196, 196, 196, 1);
     margin-right: 20px; /* Espacio entre las imágenes */
   }
-  
-  .texto-info {
-    width: 422px;
-    background: rgba(255, 255, 255, 1);
-    padding: 20px; /* Espacio interno para mejorar la apariencia */
-  }
-  
-  .v1_55 {
-    width: 470px;
-    color: rgba(189, 189, 189, 1);
-    font-family: Roboto;
-    font-weight: Light;
-    font-size: 48px;
-    text-align: left;
-  }
-  
-  .v1_61 {
-    width: 123px;
-    height: 24px;
-    background: url("");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    overflow: hidden;
-  }
-  
-  .v1_62 {
-    color: rgba(51, 51, 51, 1);
-    font-family: Roboto;
-    font-weight: Regular;
-    font-size: 12px;
-    text-align: left;
-  }
-  
-  .v1_64 {
-    width: 400px;
-    color: rgba(0, 0, 0, 1);
-    font-family: Roboto;
-    font-weight: Light;
-    font-size: 16px;
-    text-align: left;
-  }
-  
-  .v1_73 {
-    width: 90%;
-    height: 765px;
-    background: url("");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 2027px;
-    left: 135px;
-    overflow: hidden;
-  }
   .v1_74 {
     width: 221px;
     height: 71px;
@@ -272,189 +206,6 @@ body {
     font-size: 12px;
     opacity: 1;
     text-align: left;
-  }
-  
-  .v1_79 {
-    width: 204px;
-    color: rgba(189,189,189,1);
-    position: relative;
-    top: 0px;
-    left: 0px;
-    font-family: Roboto;
-    font-weight: Light;
-    font-size: 64px;
-    opacity: 1;
-    text-align: left;
-  }
-  .texto-oficina{
-    width: 85%;
-    margin-bottom: 20px;
-  }
-  .v1_80 {
-    width: 570px;
-    height: 255px;
-    background: rgba(196,196,196,1);
-    opacity: 1;
-    position: absolute;
-    top: 124px;
-    left: 0px;
-    overflow: hidden;
-  }
-  .v1_81 {
-    width: 570px;
-    height: 255px;
-    background: rgba(31,28,174,0.47999998927116394);
-    opacity: 0.800000011920929;
-    position: absolute;
-    top: 124px;
-    left: 0px;
-    overflow: hidden;
-  }
-  .v1_82 {
-    width: 237px;
-    height: 164px;
-    background: url("");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 172px;
-    left: 79px;
-    overflow: hidden;
-  }
-  .v1_83 {
-    width: 237px;
-    height: 164px;
-    background: url("");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-  }
-  .v1_84 {
-    width: 70px;
-    height: 24px;
-    background: url("");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 140px;
-    left: 4px;
-    overflow: hidden;
-  }
-  .v1_85 {
-    width: 43px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 4px;
-    left: 0px;
-    font-family: Gothic A1;
-    font-weight: Regular;
-    font-size: 16px;
-    opacity: 1;
-    text-align: left;
-  }
-  
-  .v1_87 {
-    width: 237px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    font-family: Roboto;
-    font-weight: Bold;
-    font-size: 64px;
-    opacity: 1;
-    text-align: left;
-  }
-  .v1_88 {
-    width: 370px;
-    height: 255px;
-    background: rgba(196,196,196,1);
-    opacity: 1;
-    position: absolute;
-    top: 409px;
-    left: 800px;
-    overflow: hidden;
-  }
-  .v1_89 {
-    width: 370px;
-    height: 255px;
-    background: url("/aboweb/public/images/v1_89.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 409px;
-    left: 800px;
-    overflow: hidden;
-  }
-  .v1_90 {
-    width: 570px;
-    height: 255px;
-    background: url("/aboweb/public/images/v1_90.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 124px;
-    left: 600px;
-    overflow: hidden;
-  }
-  .v1_91 {
-    width: 470px;
-    height: 255px;
-    background: rgba(196,196,196,1);
-    opacity: 1;
-    position: absolute;
-    top: 409px;
-    left: 300px;
-    overflow: hidden;
-  }
-  .v1_92 {
-    width: 470px;
-    height: 255px;
-    background: url("/aboweb/public/images/v1_92.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 409px;
-    left: 300px;
-    overflow: hidden;
-  }
-  .v1_93 {
-    width: 270px;
-    height: 255px;
-    background: rgba(196,196,196,1);
-    opacity: 1;
-    position: absolute;
-    top: 409px;
-    left: 0px;
-    overflow: hidden;
-  }
-  .v1_94 {
-    width: 270px;
-    height: 255px;
-    background: url("/aboweb/public/images/v1_94.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 409px;
-    left: 0px;
-    overflow: hidden;
   }
   .v1_98 {
     width: 100%;
@@ -537,24 +288,10 @@ body {
   .contenedor-footer {
     width: 100%;
     height: 417px;
-    opacity: 1;
-    position: absolute;
-    top: 3635px;
-    left: 0px;
+    top: 2000px;
     background: rgba(8,19,64,1);
-    display: flex; /* Utiliza display: flex; para centrar verticalmente los elementos */
     justify-content: center; /* Centra horizontalmente los elementos */
     align-items: center; /* Centra verticalmente los elementos */
-    overflow: hidden;
-  }
-  .v1_96 {
-    width: 100%;
-    height: 50vh; /* Utiliza el 50% de la altura de la ventana */
-    opacity: 1;
-    position: absolute;
-    background: rgba(8,19,64,1);
-    top: 0px;
-    left: 0px;
   }
   /* Estilos comunes para todos los elementos */
   .v1_120, .v1_121, .v1_122, .v1_123, .v1_124, .v1_125{
