@@ -1,4 +1,4 @@
-import './globals.css';
+import '../abogados/abogado.css';
 import Link from 'next/link';
 
 function Page() {
@@ -7,13 +7,14 @@ function Page() {
       <div className="Contenedor-global">
       <div className="contenedor-header">
   <div className="v1_161"></div>
+  <Link href="/">
   <div className="menu-item">Menu</div>
+  </Link>
   <Link href="/galeria">
   <div className="menu-item">Galeria</div>
 </Link>
-<Link href="/abogados">
+
   <div className="menu-item">Abogados</div>
-  </Link>
   <Link href="/publicaciones">
   <div className="menu-item">Publicaciones</div>
   </Link>
