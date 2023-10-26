@@ -15,7 +15,7 @@ function Page() {
   <div className="menu-item">Abogados</div>
   </Link>
   <Link href="/publicaciones">
-  <div className="menu-item">Publicaciones</div>
+  <div className="menu-item">Firmas</div>
   </Link>
   <div className="menu-item">Contactos</div>
   <div className="icono"></div>

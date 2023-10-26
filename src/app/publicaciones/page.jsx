@@ -16,15 +16,15 @@ function Page() {
 <Link href="/abogados">
   <div className="menu-item">Abogados</div>
   </Link>
-  <div className="menu-item">Publicaciones</div>
+  <div className="menu-item">Firmas</div>
   <div className="menu-item">Contactos</div>
   <div className="icono"></div>
   <div className="imagen"></div>
 </div>
 <div className="contenedor-titulo">
   <div className="titulos">
-    <div className="v1_22">Garcia & </div>
-    <div className="v1_23">Caceres Gonzales</div>
+    <div className="v1_22">Nuestras</div>
+    <div className="v1_23">Firmas</div>
   </div>
   <div className="v1_24"></div>
 </div>

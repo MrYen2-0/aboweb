@@ -16,68 +16,73 @@ function Page() {
 
   <div className="menu-item">Abogados</div>
   <Link href="/publicaciones">
-  <div className="menu-item">Publicaciones</div>
+  <div className="menu-item">Firmas</div>
   </Link>
   <div className="menu-item">Contactos</div>
   <div className="icono"></div>
+  <div className="v1_161"></div>
   <div className="imagen"></div>
 </div>
 <div className="contenedor-titulo">
   <div className="titulos">
-    <div className="v1_22">Garcia & </div>
-    <div className="v1_23">Caceres Gonzales</div>
+    <div className="v1_22">Abogados </div>
+    <div className="v1_23">De la firma</div>
   </div>
-  <div className="v1_24"></div>
 </div>
         <div className="contenedor-info">
           <div className="imagenes-info">
-          <div className="v1_56"></div>
-          <div className="v1_57"></div>
-          <div className="v1_58"></div>
-          </div>
-          <div className="texto-info">
-          <div className="v1_55">Acerca de la empresa</div>
-          <div className="v1_64">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry...
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry...Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry... 
-        </div>
-        <div className="v1_61">
-              <div className="v1_62">Leer mas</div>
-          </div>
-        </div>
-      </div>
-      <div className="v1_73">
-        <div className="v1_79">Edificio</div>
-        <div className="texto-oficina">Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry...
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry...Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry... Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry...Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry...
-          </div>
-        <div className="v1_80"></div>
-        <div className="v1_81"></div>
-        <div className="v1_82">
-          <div className="v1_83">
-            <div className="v1_84">
-              <div className="v1_85">Mas</div>
-              <div className="name"></div>
+          <div className="v1_56">
+          <div className="texto-abogado">
+              <div className="titulo-abogado">
+              Jose Luis Flores Cortes
+              </div>
+              <div className="descripcion-abogado">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              , when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              </div>
             </div>
-            <div className="v1_87">Oficinas
+            <div className="imagen-abogado">
+            </div>
+            <div className="areas-abogado">
+            ÁREAS DE PRÁCTICA:   Civil, Mercantil, Laboral,
             </div>
           </div>
-        </div>
-        <div className="v1_88"></div>
-        <div className="v1_89"></div>
-        <div className="v1_90"></div>
-        <div className="v1_91"></div>
-        <div className="v1_92"></div>
-        <div className="v1_93"></div>
-        <div className="v1_94"></div>
+          <div className="v1_57">
+          <div className="texto-abogado">
+              <div className="titulo-abogado">
+              Jose Luis Flores Cortes
+              </div>
+              <div className="descripcion-abogado">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              , when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              </div>
+            </div>
+            <div className="imagen-abogado">
+            </div>
+            <div className="areas-abogado">
+            ÁREAS DE PRÁCTICA:   Civil, Mercantil, Laboral,
+            </div>
+          </div>
+          <div className="v1_58">
+          <div className="texto-abogado">
+              <div className="titulo-abogado">
+              Jose Luis Flores Cortes
+              </div>
+              <div className="descripcion-abogado">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              , when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              </div>
+            </div>
+            <div className="imagen-abogado">
+            </div>
+            <div className="areas-abogado">
+            ÁREAS DE PRÁCTICA:   Civil, Mercantil, Laboral,
+            </div>
+          </div>
+          </div>
       </div>
       <div className="contenedor-footer">
         <div className="footer-container">
@@ -109,7 +114,7 @@ function Page() {
         
       </div>
     </div>
-      </div>
+  </div>
   );
 }
 
