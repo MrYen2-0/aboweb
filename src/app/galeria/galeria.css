@@ -111,7 +111,7 @@ body {
     margin-right: 20px;
   }
   .contenedor-info {
-    width: 100%;
+    width: 90%;
     height: auto;
     background-repeat: no-repeat;
     background-position: center center;
@@ -166,19 +166,6 @@ body {
     position: absolute;
     top: 694px;
     left: 948px;
-    overflow: hidden;
-  }
-  .v1_76 {
-    width: 143px;
-    height: 24px;
-    background: url("");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 23px;
-    left: 39px;
     overflow: hidden;
   }
   .v1_77 {
@@ -375,18 +362,7 @@ body {
     height: 16px;
     left: 261px;
     border: 1px solid rgba(255, 255, 255, 1);
-  }
-  
-  .v1_131, .v1_132, .v1_134 {
-    height: 15px;
-    background: url("");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    left: 261px;
-    overflow: hidden;
-  }
-  
+  }  
   .v1_134 {
     height: 11px;
     border: 0.8px solid rgba(255, 255, 255, 1);
@@ -452,32 +428,6 @@ body {
     width: 222px;
     height: 71px;
     background: rgba(0,102,255,1);
-    opacity: 1;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-  }
-  .v1_142 {
-    width: 126px;
-    height: 24px;
-    background: url("");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 23px;
-    left: 47px;
-    overflow: hidden;
-  }
-  .v1_143 {
-    width: 126px;
-    height: 24px;
-    background: url("");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     opacity: 1;
     position: absolute;
     top: 0px;
@@ -550,18 +500,6 @@ body {
     top: 197px;
     left: 0px;
     overflow: hidden;
-  }
-  .v1_151 {
-    width: 48px;
-    color: url("");
-    position: absolute;
-    top: 211px;
-    left: 21px;
-    font-family: Roboto;
-    font-weight: Regular;
-    font-size: 14px;
-    opacity: 1;
-    text-align: left;
   }
   .v1_152 {
     width: 391px;

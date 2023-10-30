@@ -1,28 +1,13 @@
 import '../abogados/abogado.css';
-import Link from 'next/link';
+import Header from '../componentes/Header'; // Asegúrate de importar Header desde el lugar correcto
 
 function Page() {
   return (
     <div>
       <div className="Contenedor-global">
-      <div className="contenedor-header">
-  <div className="v1_161"></div>
-  <Link href="/">
-  <div className="menu-item">Menu</div>
-  </Link>
-  <Link href="/galeria">
-  <div className="menu-item">Galeria</div>
-</Link>
-
-  <div className="menu-item">Abogados</div>
-  <Link href="/publicaciones">
-  <div className="menu-item">Firmas</div>
-  </Link>
-  <div className="menu-item">Contactos</div>
-  <div className="icono"></div>
-  <div className="v1_161"></div>
-  <div className="imagen"></div>
-</div>
+      <div>
+      <Header />
+    </div>
 <div className="contenedor-titulo">
   <div className="titulos">
     <div className="v1_22">Abogados </div>

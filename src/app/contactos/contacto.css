@@ -1,11 +1,10 @@
 body {
-    font-size: 14px;
     margin: 0;
     padding: 0;
     width: 100%;
-}
-
-.Cotenedor-global {
+  }
+  
+  .Cotenedor-global {
     width: 100%;
     height: auto;
     background: rgba(255, 255, 255, 1);
@@ -14,30 +13,27 @@ body {
     top: 0;
     left: 0;
     overflow: hidden;
-}
-
-.contenedor-header {
+  }
+  
+  .contenedor-header {
     width: 100%;
-    height: 130px;
+    height: 180px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly; /* Cambiar a space-evenly o space-around */
     align-items: center;
     background: rgba(255, 255, 255, 1);
-    opacity: 1;
-    overflow: hidden;
-    position: relative;
-}
-
-.contenedor-header .menu-item {
+  }
+  
+  .contenedor-header .menu-item {
     color: rgba(51, 51, 51, 1);
     font-family: Roboto;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 22px;
     text-align: left;
-    margin: 0 5px;
-}
-
-.contenedor-header .separator {
+    margin: 0 0px;
+  }
+  
+  .contenedor-header .separator {
     width: 68px;
     height: 1px;
     background: rgba(51, 51, 51, 1);
@@ -45,9 +41,9 @@ body {
     position: relative;
     top: 0;
     overflow: hidden;
-}
-
-.contenedor-header .icono {
+  }
+  
+  .contenedor-header .icono {
     width: 175px;
     height: 138px;
     background-image: url('./images/IconoB_preview_rev_1.png'); /* Ruta relativa a la carpeta "public" */
@@ -57,9 +53,9 @@ body {
     opacity: 1;
     top: 0;
     left: 0;
-}
-
-.contenedor-header .imagen {
+  }
+  
+  .contenedor-header .imagen {
     width: 110px;
     height: 110px;
     background: url("./images/v818_288.png");
@@ -68,165 +64,108 @@ body {
     opacity: 1;
     top: 10px;
     right: 10px;
-}
+  }
+  
+  .login-modal {
+    position: fixed; /* Cambia a posición fija para que esté por encima de otros elementos */
+    top: 0; /* Coloca el cuadro en la parte superior de la página */
+    right: 0; /* Coloca el cuadro en la esquina superior derecha */
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    background: white; /* Fondo del cuadro de inicio de sesión */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999; /* Asegura que el cuadro esté en la parte superior */
+  }
+  
 
-.contenedor-titulo {
+  .contenedor-titulo {
     display: flex;
     width: auto;
     height: auto;
     align-items: flex-start;
     padding: 40px;
-}
-
-.titulos {
+  }
+  
+  .titulos {
     display: flex;
     flex-direction: column;
     margin: 0 150px;
-    margin-top: 160px;
-}
+    margin-top: 0px;
+  }
+  
+  .contenedor-info {
+    width: 90%;
+    height: auto;
+    margin-left: 90px;
+    margin-top: 10px;
+  }
 
-.v1_22 {
-    width: auto;
-    color: rgba(189, 189, 189, 1);
-    font-family: Roboto;
-    font-weight: light;
-    font-size: 64px;
-    opacity: 1;
-    text-align: left;
-    margin-right: 20px;
-}
-
-.v1_23 {
-    width: auto;
-    color: rgba(0, 102, 255, 0.81);
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 64px;
-    opacity: 1;
-    text-align: left;
-    margin-right: 20px;
-}
-
-.v1_24 {
-    width: 673px;
-    height: 724px;
-    background: rgba(196, 196, 196, 1);
-    opacity: 1;
-    top: 230px;
-    left: 570px;
-    overflow: hidden;
-}
-
-.contenedor-info {
-    width: 1450px;
+  .contenedor-form{
+    width: 550px;
     height: auto;
     overflow: hidden;
-    margin-left: 50px;
-}
+  }
 
-.imagenes-info {
-    width: 100%;
-    height: auto;
-}
-
-.imagen-abogado{
-  width: 175px;
-  height: 195px;
-  background-image: url('./images/persona.png'); /* Ruta relativa a la carpeta "public" */
-  background-size: cover;
-  margin-top: 80px;
-  margin-left: 25px;
-  float: left;
-}
-.texto-abogado {
-  width: 50%;
-  height: auto; /* O ajusta el ancho que desees */
-  float: right; 
-  clear: both;
-  align-self: flex-start;
-  margin-top: 45px;
-  margin-right: 20px;
-}
-.titulo-abogado {
-  font-size: 24px; /* Tamaño de fuente para el título */
-  font-weight: bold; /* Texto en negrita */
-  color: #333; /* Color del texto, puedes ajustarlo según tu diseño */
-  margin-bottom: 10px; /* Espacio inferior entre el título y la descripción */
-}
-
-.descripcion-abogado {
-  font-size: 16px; /* Tamaño de fuente para la descripción */
-  color: #666; /* Color del texto, puedes ajustarlo según tu diseño */
-  line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
-}
-.areas-abogado{
-  width: 170px;
-  margin: 20px;
-  padding-top: 265px;
-}
-.v1_56,
-.v1_57,
-.v1_58 {
-    width: 460px;
-    height: 400px;
-    background: rgba(196, 196, 196, 1);
-    margin-right: 30px;
-}
-
-.texto-info {
-    width: 422px;
-    background: rgba(255, 255, 255, 1);
+  .form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
     padding: 20px;
-}
-
-.v1_55 {
-    width: 470px;
-    color: rgba(189, 189, 189, 1);
-    font-family: Roboto;
-    font-weight: light;
-    font-size: 48px;
-    text-align: left;
-}
-  .v1_62 {
-    color: rgba(51, 51, 51, 1);
-    font-family: Roboto;
-    font-weight: Regular;
-    font-size: 12px;
-    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 5px;
   }
   
-  .v1_64 {
-    width: 400px;
-    color: rgba(0, 0, 0, 1);
-    font-family: Roboto;
-    font-weight: Light;
-    font-size: 16px;
-    text-align: left;
-  }
-  .v1_74 {
-    width: 221px;
-    height: 71px;
-    background: rgba(255,255,255,1);
-    opacity: 1;
-    position: absolute;
-    top: 694px;
-    left: 948px;
-    overflow: hidden;
-  }
-  .v1_77 {
-    width: 109px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 6px;
-    left: 0px;
-    font-family: Roboto;
-    font-weight: Regular;
-    font-size: 12px;
-    opacity: 1;
-    text-align: left;
+  label {
+    margin-top: 10px;
+    font-size: 20px; /* Tamaño de fuente más grande */
+
   }
   
+  input,
+  textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
 
+  .large-text {
+    font-size: 20px; /* Tamaño de fuente más grande */
+    padding-bottom: 10px; /* Espacio adicional hacia abajo */
+    padding-right: 10px; /* Espacio adicional hacia la derecha */
+  }
+  
+  
+  button {
+    margin-top: 15px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .maps{
+    width: 100px;
+    height: auto;
+  }
+  .imagen-maps{
+    width: 810px;
+    height: 510px;
+    background: url("./images/Screenshot_73.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    top: 10px;
+    right: 10px;
+  }
   .v1_98 {
     width: 100%;
     background: rgba(215,215,215,1);
@@ -300,15 +239,15 @@ body {
   }
   .contenedor-footer {
     width: 100%;
-    top: 2000px;
+    top: 1100px;
     height: 417px;
     background: rgba(8,19,64,1);
     display: flex; 
     justify-content: center; 
     align-items: center; 
     overflow: hidden;
-}
-
+  }
+  
   .v1_120, .v1_121, .v1_122, .v1_123, .v1_124, .v1_125{
     color: rgba(255, 255, 255, 1);
     font-family: Roboto;
@@ -353,7 +292,7 @@ body {
     top: 0px;
     left: 0px;
   }
-  .v1_126, .v1_117, .v1_118, .v1_130, .v1_131, .v1_132, .v1_133, .v1_134, .v1_135, .v1_136 {
+  .v1_126, .v1_117, .v1_118, .v1_136 {
     color: rgba(255, 255, 255, 1);
     font-family: Roboto;
     font-weight: Medium;
@@ -379,9 +318,4 @@ body {
     top: 205px;
     left: 291px;
   }
-  .v1_136 {
-    width: 314px;
-    font-size: 14px;
-    top: 45px;
-    left: 291px;
-  }
+  

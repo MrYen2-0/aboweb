@@ -86,10 +86,10 @@ body {
 }
 
 .contenedor-info {
-  width: 100%;
+  width: 80%;
   height: auto;
   overflow: hidden;
-  margin-left: 120px;
+  margin-left: 250px;
 }
 
 .imagenes-info {

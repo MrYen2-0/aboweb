@@ -121,14 +121,14 @@ body {
 }
 
 .contenedor-info {
-  width: 100%;
+  width: 75%;
   height: auto;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   overflow: hidden;
-  margin-left: 150px;
+  margin-left: 200px;
 }
 .imagenes-info {
   width: 270px;

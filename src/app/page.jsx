@@ -1,26 +1,13 @@
 import './globals.css';
-import Link from 'next/link';
+import Header from './componentes/Header';
 
 function Page() {
   return (
     <div>
       <div className="Contenedor-global">
-      <div className="contenedor-header">
-  <div className="v1_161"></div>
-  <div className="menu-item">Menu</div>
-  <Link href="/galeria">
-  <div className="menu-item">Galeria</div>
-</Link>
-<Link href="/abogados">
-  <div className="menu-item">Abogados</div>
-  </Link>
-  <Link href="/publicaciones">
-  <div className="menu-item">Firmas</div>
-  </Link>
-  <div className="menu-item">Contactos</div>
-  <div className="icono"></div>
-  <div className="imagen"></div>
-</div>
+      <div>
+      <Header />
+    </div>
 <div className="contenedor-titulo">
   <div className="titulos">
     <div className="v1_22">Garcia & </div>
