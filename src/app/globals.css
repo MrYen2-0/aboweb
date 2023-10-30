@@ -63,7 +63,7 @@ body {
 .contenedor-header .imagen {
   width: 112px;
   height: 112px;
-  background: url("/aboweb/public/images/v818_288.png");
+  background: url("./admin/menu/images/v818_288.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
