@@ -1,0 +1,545 @@
+
+body {
+    font-size: 14px;
+    margin: 0; /* Eliminar los márgenes predeterminados del cuerpo */
+    padding: 0;
+    width: 100%;
+  }
+  
+  .Cotenedor-global {
+    width: 100%;
+    height: auto;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .contenedor-header {
+    width: 98%;
+    height: 138px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .contenedor-header .menu-item {
+    color: rgba(51, 51, 51, 1);
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 20px;
+    text-align: left;
+    margin: 0 5px; 
+  }
+  
+  .contenedor-header .separator {
+    width: 68px;
+    height: 1px;
+    background: rgba(51, 51, 51, 1);
+    opacity: 1;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+  }
+  
+  .contenedor-header .icono {
+    width: 176px;
+    height: 138px;
+    background-image: url('./images/IconoB_preview_rev_1.png'); /* Ruta relativa a la carpeta "public" */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .contenedor-header .imagen {
+    width: 112px;
+    height: 112px;
+    background: url("./images/v818_288.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 12px;
+    right: 10px; 
+  }
+  
+  .contenedor-titulo {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: flex-start;
+    padding: 40px;
+  }
+  
+  .titulos {
+    display: flex; /* Utiliza flexbox para alinear elementos horizontalmente */
+    flex-direction: column; /* Apila elementos verticalmente */
+    margin: 0 200px; /* Agrega un margen a la izquierda y a la derecha */
+    margin-top: 160px;
+  }
+  
+  
+  .v1_22 {
+    width: auto; /* Ancho automático en función del contenido */
+    color: rgba(189, 189, 189, 1);
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 64px;
+    opacity: 1;
+    text-align: left;
+    margin-right: 20px; /* Espacio entre los elementos */
+  }
+  
+  .v1_23 {
+    width: 267px;
+    color: rgba(0, 102, 255, 0.81);
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 64px;
+    opacity: 1;
+    text-align: left;
+    margin-right: 20px;
+  }
+  .contenedor-info {
+    width: 90%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+    margin-left: 100px;
+  }
+  .imagenes-info {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columnas con igual ancho */
+    gap: 10px; /* Espacio entre los elementos */
+    flex-wrap: wrap; /* Envuelve las imágenes en filas y columnas */
+
+  }
+
+  .v1_56, .v1_57, .v1_58, .v1_59, .v1_60{
+    width: 350px;
+    height: 305px;
+    margin-right: 20px; /* Espacio entre las imágenes */
+    margin-bottom: 20px; /* Espacio entre las filas de imágenes */
+    background: rgba(196, 196, 196, 1);
+    opacity: 1;
+    overflow: hidden;
+  }
+  
+  /* Estilos adicionales para los elementos (ajusta según tus necesidades) */
+  .v1_57 {
+    background: rgb(225, 54, 54);
+  }
+  
+  .v1_58 {
+    background: rgba(196, 196, 196, 1);
+  }
+  
+  
+  .contenedor-info {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .imagenes-info {
+    display: flex;
+    width: auto;
+  }
+  .v1_74 {
+    width: 221px;
+    height: 71px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 694px;
+    left: 948px;
+    overflow: hidden;
+  }
+  .v1_77 {
+    width: 109px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v1_98 {
+    width: 100%;
+    background: rgba(215,215,215,1);
+    opacity: 0.10000000149011612;
+    position: absolute;
+    top: 347px;
+    left: 0px;
+    border: 1px solid rgba(255,255,255,1);
+  }
+  .v1_99 {
+    width: 150px;
+    color: rgba(200,200,200,0.5);
+    position: absolute;
+    top: 371px;
+    left: 591px;
+    font-family: Open Sans;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  .footer-info {
+    display: flex;
+    flex-direction: column; /* Apila elementos verticalmente */
+    margin-left: 100px; /* Agrega un margen a la izquierda para separar del borde izquierdo */
+    width: auto; /* Ancho automático en función del contenido */
+    height: auto;
+  }
+  
+  /* Estilos para los elementos internos */
+  .footer-info > div {
+    font-size: 17px; /* Ajusta el tamaño de fuente según tus preferencias */
+    padding: 10px 0; /* Agrega espacio vertical y horizontal alrededor de los elementos */
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: row; /* Alinea elementos en una fila horizontal */
+    width: auto; /* Ancho automático en función del contenido */
+    height: auto;
+    margin-bottom: 100px;
+  }
+  
+  /* Estilos para los elementos internos */
+  .footer-container > div {
+    margin-right: 60px; /* Agrega un margen derecho para separar los elementos */
+  }
+  
+  
+  /* Estilos para los elementos específicos en .footer-social */
+  .v1_102 {
+    width: 117px;
+    color: rgba(255, 255, 255, 1);
+    top:0px;
+    left:0px;
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .v1_104 {
+    width: 9px;
+    height: 18px;
+    background: rgba(255, 255, 255, 1);
+    top:0px;
+    left:0px;
+  }
+  
+  .v1_106 {
+    width: 21px;
+    height: 16px;
+    background: rgba(255, 255, 255, 1);
+    top:0px;
+    left:0px;
+  }
+  
+  .contenedor-footer {
+    width: 100%;
+    height: 417px;
+    top: 2000px;
+    background: rgba(8,19,64,1);
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  /* Estilos comunes para todos los elementos */
+  .v1_120, .v1_121, .v1_122, .v1_123, .v1_124, .v1_125{
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-weight: Medium;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .v1_120 {
+    width: 82px;
+    font-size: 14px;
+    top: 45px;
+    left: 1px;
+  }
+  
+  .v1_121 {
+    width: 56px;
+    font-size: 14px;
+    top: 85px;
+    left: 1px;
+  }
+  
+  .v1_122 {
+    width: 61px;
+    font-size: 14px;
+    top: 125px;
+    left: 1px;
+  }
+  
+  .v1_123 {
+    width: 94px;
+    font-size: 14px;
+    top: 165px;
+    left: 1px;
+  }
+  
+  .v1_124 {
+    width: 102px;
+    font-size: 14px;
+    top: 205px;
+    left: 1px;
+  }
+  
+  .v1_125 {
+    width: 103px;
+    font-weight: Bold;
+    font-size: 16px;
+    top: 0px;
+    left: 0px;
+  }
+  
+  /* Estilos comunes para todos los elementos */
+  .v1_126, .v1_117, .v1_118, .v1_130, .v1_131, .v1_132, .v1_133, .v1_134, .v1_135, .v1_136 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-weight: Medium;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .v1_126 {
+    width: 75px;
+    font-weight: Bold;
+    font-size: 16px;
+    top: 0px;
+    left: 260px;
+  }
+  
+  .v1_117 {
+    width: 117px;
+    font-size: 14px;
+    top: 149px;
+    left: 291px;
+  }
+  
+  .v1_118 {
+    width: 181px;
+    font-size: 14px;
+    top: 205px;
+    left: 291px;
+  }
+  
+  .v1_130, .v1_131, .v1_132, .v1_133, .v1_134, .v1_135 {
+    width: 16px;
+    height: 16px;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+  }
+  
+  .v1_130 {
+    width: 11px;
+    height: 16px;
+    left: 261px;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }  
+  .v1_134 {
+    height: 11px;
+    border: 0.8px solid rgba(255, 255, 255, 1);
+  }
+  
+  .v1_136 {
+    width: 314px;
+    font-size: 14px;
+    top: 45px;
+    left: 291px;
+  }
+  
+  .v834_118 {
+    width: 251px;
+    height: 237px;
+    background: url("/aboweb/public/images/v834_118.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3693px;
+    left: 57px;
+    overflow: hidden;
+  }
+  
+  .v1_138 {
+    width: 359px;
+    color: rgba(189,189,189,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 64px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v1_139 {
+    width: 749px;
+    height: 369px;
+    background: url("/aboweb/public/images/v1_139.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 86px;
+    left: 421px;
+    overflow: hidden;
+  }
+  .v1_140 {
+    width: 221px;
+    height: 71px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 532px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v1_141 {
+    width: 222px;
+    height: 71px;
+    background: rgba(0,102,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v1_144 {
+    width: 106px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .v1_146 {
+    width: 391px;
+    height: 46px;
+    background: rgba(243,243,243,1);
+    opacity: 1;
+    position: absolute;
+    top: 86px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v1_147 {
+    width: 53px;
+    color: rgba(141,141,141,1);
+    position: absolute;
+    top: 101px;
+    left: 21px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v1_148 {
+    width: 391px;
+    height: 45px;
+    background: rgba(243,243,243,1);
+    opacity: 1;
+    position: absolute;
+    top: 142px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v1_149 {
+    width: 125px;
+    color: rgba(141,141,141,1);
+    position: absolute;
+    top: 156px;
+    left: 21px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v1_150 {
+    width: 391px;
+    height: 46px;
+    background: rgba(243,243,243,1);
+    opacity: 1;
+    position: absolute;
+    top: 197px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v1_152 {
+    width: 391px;
+    height: 45px;
+    background: rgba(243,243,243,1);
+    opacity: 1;
+    position: absolute;
+    top: 253px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v1_153 {
+    width: 39px;
+    color: rgba(141,141,141,1);
+    position: absolute;
+    top: 267px;
+    left: 21px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v1_154 {
+    width: 391px;
+    height: 147px;
+    background: rgba(243,243,243,1);
+    opacity: 1;
+    position: absolute;
+    top: 308px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v1_160 {
+    width: 100%;
+    height: 138px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }

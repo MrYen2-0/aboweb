@@ -45,25 +45,20 @@ function Page() {
           industry...Lorem Ipsum is simply dummy text of the printing and typesetting
           industry...
           </div>
-        <div className="v1_80"></div>
-        <div className="v1_81"></div>
-        <div className="v1_82">
-          <div className="v1_83">
-            <div className="v1_84">
-              <div className="v1_85">Mas</div>
-              <div className="name"></div>
-            </div>
-            <div className="v1_87">Oficinas
-            </div>
+          <div className="imagenes-edificio">
+          <div className="edificio-1">
           </div>
-        </div>
-        <div className="v1_88"></div>
-        <div className="v1_89"></div>
-        <div className="v1_90"></div>
-        <div className="v1_91"></div>
-        <div className="v1_92"></div>
-        <div className="v1_93"></div>
-        <div className="v1_94"></div>
+          <div className="edificio-1">
+          </div>
+          </div>
+          <div className="imagenes-edificio2">
+          <div className="edificio-3">
+          </div>
+          <div className="edificio-3">
+          </div>
+          <div className="edificio-3">
+          </div>
+          </div>
       </div>
       <div className="contenedor-footer">
         <div className="footer-container">
