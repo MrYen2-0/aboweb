@@ -1,0 +1,356 @@
+body {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .Cotenedor-global {
+    width: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  
+  .contenedor-header {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .contenedor-header .menu-item {
+    color: rgba(51, 51, 51, 1);
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    margin: 0 5px;
+  }
+  
+  .contenedor-header .separator {
+    width: 68px;
+    height: 1px;
+    background: rgba(51, 51, 51, 1);
+    opacity: 1;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+  }
+  
+  .contenedor-header .icono {
+    width: 175px;
+    height: 138px;
+    background-image: url('./images/IconoB_preview_rev_1.png'); /* Ruta relativa a la carpeta "public" */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    top: 0;
+    left: 0;
+  }
+  
+  .contenedor-header .imagen {
+    width: 110px;
+    height: 110px;
+    background: url("./images/v818_288.png");
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .contenedor-titulo {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: flex-start;
+    padding: 40px;
+  }
+  
+  .titulos {
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+    margin-top: 160px;
+  }
+  
+  .contenedor-info {
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    margin-left: 250px;
+  }
+  
+  .imagenes-info {
+    width: auto;
+    height: auto;
+    display: flex; /* Hacer que los elementos hijos se distribuyan verticalmente */
+    flex-direction: column; /* Alineación vertical */
+  }
+  
+  .imagen-abogado{
+  width: 605px;
+  height: 400px;
+  background: url("./images/oficinas2.jpg");
+  background-size: cover;
+  float: left;
+  }
+  .texto-abogado {
+  width: 40%;
+  height: auto; /* O ajusta el ancho que desees */
+  float: right; 
+  clear: both;
+  align-self: flex-start;
+  margin-top: 45px;
+  margin-right: 30px;
+  }
+  .titulo-abogado {
+  font-size: 24px; /* Tamaño de fuente para el título */
+  font-weight: bold; /* Texto en negrita */
+  color: #333; /* Color del texto, puedes ajustarlo según tu diseño */
+  margin-bottom: 50px; /* Espacio inferior entre el título y la descripción */
+  }
+  
+  .descripcion-abogado {
+  font-size: 16px; /* Tamaño de fuente para la descripción */
+  color: #666; /* Color del texto, puedes ajustarlo según tu diseño */
+  line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
+  margin-right: 50px;
+  
+  }
+  .areas-abogado{
+  width: 170px;
+  margin: 30px;
+  padding-top: 45px;
+  }
+  .v1_56{
+    width: 1200px;
+    height: 400px;
+    background: rgb(222, 222, 222);
+    margin-bottom: 60px;
+  }
+  
+  .texto-info {
+    width: 422px;
+    background: rgba(255, 255, 255, 1);
+    padding: 20px;
+  }
+  
+  .v1_55 {
+    width: 470px;
+    color: rgb(213, 213, 213);
+    font-family: Roboto;
+    font-weight: light;
+    font-size: 48px;
+    text-align: left;
+  }
+  .v1_62 {
+    color: rgba(51, 51, 51, 1);
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 12px;
+    text-align: left;
+  }
+  
+  .v1_64 {
+    width: 400px;
+    color: rgba(0, 0, 0, 1);
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 16px;
+    text-align: left;
+  }
+  .v1_74 {
+    width: 221px;
+    height: 71px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 694px;
+    left: 948px;
+    overflow: hidden;
+  }
+  .v1_77 {
+    width: 109px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  
+  .v1_98 {
+    width: 100%;
+    background: rgba(215,215,215,1);
+    opacity: 0.10000000149011612;
+    position: absolute;
+    top: 347px;
+    left: 0px;
+    border: 1px solid rgba(255,255,255,1);
+  }
+  .v1_99 {
+    width: 150px;
+    color: rgba(200,200,200,0.5);
+    position: absolute;
+    top: 371px;
+    left: 591px;
+    font-family: Open Sans;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  .footer-info {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 100px; 
+    width: auto;
+    height: auto;
+  }
+  
+  .footer-info > div {
+    font-size: 17px; 
+    padding: 10px 0; 
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: row; 
+    width: auto;
+    height: auto;
+    margin-bottom: 100px;
+  }
+  .footer-container > div {
+    margin-right: 60px;
+  }
+  .v1_102 {
+    width: 117px;
+    color: rgba(255, 255, 255, 1);
+    top:0px;
+    left:0px;
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .v1_104 {
+    width: 9px;
+    height: 18px;
+    background: rgba(255, 255, 255, 1);
+    top:0px;
+    left:0px;
+  }
+  
+  .v1_106 {
+    width: 21px;
+    height: 16px;
+    background: rgba(255, 255, 255, 1);
+    top:0px;
+    left:0px;
+  }
+  .contenedor-footer {
+    width: 100%;
+    top: 2400px;
+    height: 417px;
+    background: rgba(8,19,64,1);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden;
+  }
+  
+  .v1_120, .v1_121, .v1_122, .v1_123, .v1_124, .v1_125{
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-weight: Medium;
+    opacity: 1;
+    text-align: left;
+  }
+  .v1_120 {
+    width: 82px;
+    font-size: 14px;
+    top: 45px;
+    left: 1px;
+  }
+  .v1_121 {
+    width: 56px;
+    font-size: 14px;
+    top: 85px;
+    left: 1px;
+  }
+  .v1_122 {
+    width: 61px;
+    font-size: 14px;
+    top: 125px;
+    left: 1px;
+  }
+  .v1_123 {
+    width: 94px;
+    font-size: 14px;
+    top: 165px;
+    left: 1px;
+  }
+  .v1_124 {
+    width: 102px;
+    font-size: 14px;
+    top: 205px;
+    left: 1px;
+  }
+  .v1_125 {
+    width: 103px;
+    font-weight: Bold;
+    font-size: 16px;
+    top: 0px;
+    left: 0px;
+  }
+  .v1_126, .v1_117, .v1_118, .v1_130, .v1_131, .v1_132, .v1_133, .v1_134, .v1_135, .v1_136 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-weight: Medium;
+    opacity: 1;
+    text-align: left;
+  }
+  .v1_126 {
+    width: 75px;
+    font-weight: Bold;
+    font-size: 16px;
+    top: 0px;
+    left: 260px;
+  }
+  .v1_117 {
+    width: 117px;
+    font-size: 14px;
+    top: 149px;
+    left: 291px;
+  }
+  .v1_118 {
+    width: 181px;
+    font-size: 14px;
+    top: 205px;
+    left: 291px;
+  }
+  .v1_136 {
+    width: 314px;
+    font-size: 14px;
+    top: 45px;
+    left: 291px;
+  }
+  

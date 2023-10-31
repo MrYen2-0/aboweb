@@ -1,5 +1,5 @@
 import '../abogados/abogado.css';
-import Header from '../componentes/Header'; // Asegúrate de importar Header desde el lugar correcto
+import Header from '../componentes/Headeradmin'; // Asegúrate de importar Header desde el lugar correcto
 
 function Page() {
   return (

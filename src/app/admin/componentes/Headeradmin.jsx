@@ -25,19 +25,19 @@ const Header = () => {
   return (
     <div className="contenedor-header">
       <div className="v1_161"></div>
-      <Link href="/">
+      <Link href="/admin/menu">
         <div className="menu-item">Menu</div>
       </Link>
-      <Link href="/galeria">
+      <Link href="/admin/galeria">
         <div className="menu-item">Galeria</div>
       </Link>
-      <Link href="/abogados">
+      <Link href="/admin/abogados">
         <div className="menu-item">Abogados</div>
       </Link>
-      <Link href="/publicaciones">
+      <Link href="/admin/firmas">
         <div className="menu-item">Firmas</div>
       </Link>
-      <Link href="/contactos">
+      <Link href="/admin/contactos">
       <div className="menu-item">Contactos</div>
       </Link>
       <div className="icono"></div>

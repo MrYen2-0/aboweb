@@ -1,5 +1,5 @@
-import '../publicaciones/publicacion.css';
-import Header from '../componentes/Header';
+import '../firmas/firmas.css';
+import Header from '../componentes/Headeradmin';
 
 function Page() {
   return (

@@ -1,5 +1,5 @@
 import './menu.css';
-import Header from '../componentes/Header';
+import Header from '../componentes/Headeradmin';
 
 function Page() {
   return (
