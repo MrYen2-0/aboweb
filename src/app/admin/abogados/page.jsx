@@ -1,7 +1,16 @@
+"use client";
+import { useState } from 'react';
 import '../abogados/abogado.css';
 import Header from '../componentes/Headeradmin'; // Asegúrate de importar Header desde el lugar correcto
 
 function Page() {
+  // Estado para llevar un registro del número de cuadros creados
+  const [cuadroCount, setCuadroCount] = useState(3);
+
+  // Función para agregar un nuevo cuadro
+  const agregarCuadro = () => {
+    setCuadroCount(cuadroCount + 1);
+  };
   return (
     <div>
       <div className="Contenedor-global">
@@ -16,6 +25,7 @@ function Page() {
 </div>
         <div className="contenedor-info">
           <div className="imagenes-info">
+            
           <div className="v1_56">
           <div className="texto-abogado">
               <div className="titulo-abogado">
@@ -67,6 +77,8 @@ function Page() {
             ÁREAS DE PRÁCTICA:   Civil, Mercantil, Laboral,
             </div>
           </div>
+          
+          <button id="agregar-cuadro" onClick={agregarCuadro}>+</button>
           </div>
       </div>
       <div className="contenedor-footer">

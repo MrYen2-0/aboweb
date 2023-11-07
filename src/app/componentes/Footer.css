@@ -1,0 +1,162 @@
+.contenedor-footer {
+    position: relative; /* Establece la posición relativa en el contenedor */
+    width: 100%;
+    height: 417px;
+    background: rgba(8, 19, 64, 1);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 20%;
+  }
+  
+  .footer-container {
+    display: flex;
+    margin-block: 50px;
+    justify-content: center;
+  
+  }
+  
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  
+  /* Estilos para los elementos internos */
+  .footer-info > div,
+  .footer-container > div {
+    font-size: 17px;
+    padding: 10px 0;
+    margin-right: 60px;
+  }
+  
+  /* Estilos para los elementos específicos en .footer-social */
+  .v1_102 {
+    width: 117px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .v1_104, .v1_106 {
+    width: 9px;
+    height: 18px;
+    background: rgba(255, 255, 255, 1);
+  }
+  
+  .v1_120,
+  .v1_121,
+  .v1_122,
+  .v1_123,
+  .v1_124,
+  .v1_125 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-weight: medium;
+    text-align: left;
+  }
+  
+  .v1_120 {
+    width: 82px;
+    font-size: 14px;
+    top: 45px;
+    left: 1px;
+  }
+  
+  .v1_121 {
+    width: 56px;
+    font-size: 14px;
+    top: 85px;
+    left: 1px;
+  }
+  
+  .v1_122 {
+    width: 61px;
+    font-size: 14px;
+    top: 125px;
+    left: 1px;
+  }
+  
+  .v1_123 {
+    width: 94px;
+    font-size: 14px;
+    top: 165px;
+    left: 1px;
+  }
+  
+  .v1_124 {
+    width: 102px;
+    font-size: 14px;
+    top: 205px;
+    left: 1px;
+  }
+  
+  .v1_125 {
+    width: 103px;
+    font-weight: bold;
+    font-size: 16px;
+    top: 0px;
+    left: 0px;
+  }
+  
+  .v1_126,
+  .v1_117,
+  .v1_118,
+  .v1_136 {
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-weight: medium;
+    text-align: left;
+  }
+  
+  .v1_126 {
+    width: 75px;
+    font-weight: bold;
+    font-size: 16px;
+    top: 0px;
+    left: 260px;
+  }
+  
+  .v1_117 {
+    width: 117px;
+    font-size: 14px;
+    top: 149px;
+    left: 291px;
+  }
+  
+  .v1_118 {
+    width: 181px;
+    font-size: 14px;
+    top: 205px;
+    left: 291px;
+  }
+  
+  .v1_136 {
+    width: 314px;
+    font-size: 14px;
+    top: 45px;
+    left: 291px;
+  }
+  
+  .v1_98 {
+    width: 100%;
+    background: rgba(215, 215, 215, 1);
+    opacity: 0.1;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+  
+  .v1_99 {
+    width: 200px;
+    color: rgba(200, 200, 200, 0.5);
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 12px;
+    text-align: left;
+    opacity: 1;
+    margin-left: 42%;
+    margin-top: 20px;
+  }
+  
+  
