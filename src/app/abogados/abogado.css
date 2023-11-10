@@ -118,10 +118,10 @@ body {
 }
 
 .contenedor-info {
-    width: 1450px;
+    width: 1650px;
     height: auto;
     overflow: hidden;
-    margin-left: 170px;
+    margin-left: 130px;
 }
 
 .imagenes-info {
@@ -155,7 +155,7 @@ body {
 }
 
 .descripcion-abogado {
-  font-size: 16px; /* Tamaño de fuente para la descripción */
+  font-size: 17px; /* Tamaño de fuente para la descripción */
   color: #666; /* Color del texto, puedes ajustarlo según tu diseño */
   line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
 }
@@ -167,8 +167,8 @@ body {
 .v1_56,
 .v1_57,
 .v1_58 {
-    width: 460px;
-    height: 400px;
+    width: 500px;
+    height: 450px;
     background: rgba(196, 196, 196, 1);
     margin-right: 30px;
 }
@@ -178,51 +178,3 @@ body {
     background: rgba(255, 255, 255, 1);
     padding: 20px;
 }
-
-.v1_55 {
-    width: 470px;
-    color: rgba(189, 189, 189, 1);
-    font-family: Roboto;
-    font-weight: light;
-    font-size: 48px;
-    text-align: left;
-}
-  .v1_62 {
-    color: rgba(51, 51, 51, 1);
-    font-family: Roboto;
-    font-weight: Regular;
-    font-size: 12px;
-    text-align: left;
-  }
-  
-  .v1_64 {
-    width: 400px;
-    color: rgba(0, 0, 0, 1);
-    font-family: Roboto;
-    font-weight: Light;
-    font-size: 16px;
-    text-align: left;
-  }
-  .v1_74 {
-    width: 221px;
-    height: 71px;
-    background: rgba(255,255,255,1);
-    opacity: 1;
-    position: absolute;
-    top: 694px;
-    left: 948px;
-    overflow: hidden;
-  }
-  .v1_77 {
-    width: 109px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 6px;
-    left: 0px;
-    font-family: Roboto;
-    font-weight: Regular;
-    font-size: 12px;
-    opacity: 1;
-    text-align: left;
-  }
-

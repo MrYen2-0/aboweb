@@ -41,9 +41,9 @@
   }
   
   .v1_104, .v1_106 {
-    width: 9px;
-    height: 18px;
-    background: rgba(255, 255, 255, 1);
+    width: 60px;
+    height: 55px;
+    margin-top: 5px;
   }
   
   .v1_120,

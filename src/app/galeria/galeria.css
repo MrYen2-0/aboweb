@@ -1,6 +1,5 @@
 
 body {
-    font-size: 14px;
     margin: 0; /* Eliminar los márgenes predeterminados del cuerpo */
     padding: 0;
     width: 100%;
@@ -10,11 +9,6 @@ body {
     width: 100%;
     height: auto;
     background: rgba(255,255,255,1);
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
   }
   .contenedor-header {
     width: 98%;
@@ -50,10 +44,6 @@ body {
   .contenedor-header .icono {
     width: 176px;
     height: 138px;
-    background-image: url('./images/IconoB_preview_rev_1.png'); /* Ruta relativa a la carpeta "public" */
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     opacity: 1;
     position: absolute;
     top: 0;
@@ -63,10 +53,6 @@ body {
   .contenedor-header .imagen {
     width: 112px;
     height: 112px;
-    background: url("./images/v818_288.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     opacity: 1;
     position: absolute;
     top: 12px;
@@ -111,26 +97,26 @@ body {
     margin-right: 20px;
   }
   .contenedor-info {
-    width: 90%;
+    width: 100%;
     height: auto;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     opacity: 1;
     overflow: hidden;
-    margin-left: 100px;
+    margin-left: 250px;
+    margin-right: 100px;
+    align-items: center;
+    
   }
-  .imagenes-info {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columnas con igual ancho */
-    gap: 10px; /* Espacio entre los elementos */
-    flex-wrap: wrap; /* Envuelve las imágenes en filas y columnas */
 
+  .imagenes-info {
+    width: 1400px;
+    height: auto;
+    gap: 5px;
+    flex-wrap: wrap; /* Envuelve las imágenes en filas y columnas */
   }
 
   .v1_56, .v1_57, .v1_58, .v1_59, .v1_60{
-    width: 350px;
-    height: 305px;
+    width: 440px;
+    height: 315px;
     margin-right: 20px; /* Espacio entre las imágenes */
     margin-bottom: 20px; /* Espacio entre las filas de imágenes */
     background: rgba(196, 196, 196, 1);
@@ -138,26 +124,6 @@ body {
     overflow: hidden;
   }
   
-  /* Estilos adicionales para los elementos (ajusta según tus necesidades) */
-  .v1_57 {
-    background: rgb(225, 54, 54);
-  }
-  
-  .v1_58 {
-    background: rgba(196, 196, 196, 1);
-  }
-  
-  
-  .contenedor-info {
-    display: flex;
-    align-items: center;
-    margin-top: 100px;
-  }
-  
-  .imagenes-info {
-    display: flex;
-    width: auto;
-  }
   .v1_74 {
     width: 221px;
     height: 71px;

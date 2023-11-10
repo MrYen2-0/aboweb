@@ -40,8 +40,8 @@ const Header = () => {
       <Link href="/contactos">
       <div className="menu-item">Contactos</div>
       </Link>
-      <div className="icono"></div>
-      <div className="v1_161"></div>
+      <img src="/images/IconoB_preview_rev_1.png" className="icono"/>
+      <img src="/images/v818_288.png" className="imagen"/>
       <div className="container-sesion">
         <div className="imagen" onClick={handleImageClick}></div>
         {isLoginModalOpen && <LoginModal onClose={handleCloseModal} />}

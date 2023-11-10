@@ -50,7 +50,6 @@ body {
 .contenedor-header .icono {
   width: 176px;
   height: 138px;
-  background-image: url('../images/IconoB_preview_rev_1.png'); /* Ruta relativa a la carpeta "public" */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -63,14 +62,13 @@ body {
 .contenedor-header .imagen {
   width: 112px;
   height: 112px;
-  background: url("./admin/menu/images/v818_288.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
   top: 12px;
-  right: 10px; 
+  right: 0px; 
 }
 
 .contenedor-titulo {
@@ -84,7 +82,7 @@ body {
 .titulos {
   display: flex; /* Utiliza flexbox para alinear elementos horizontalmente */
   flex-direction: column; /* Apila elementos verticalmente */
-  margin: 0 250px; /* Agrega un margen a la izquierda y a la derecha */
+  margin: 0 200px; /* Agrega un margen a la izquierda y a la derecha */
   margin-top: 160px;
 }
 
@@ -94,10 +92,9 @@ body {
   color: rgba(189, 189, 189, 1);
   font-family: Roboto;
   font-weight: Light;
-  font-size: 64px;
+  font-size: 65px;
   opacity: 1;
   text-align: left;
-  margin-right: 20px; /* Espacio entre los elementos */
 }
 
 .v1_23 {
@@ -105,90 +102,46 @@ body {
   color: rgba(0, 102, 255, 0.81);
   font-family: Roboto;
   font-weight: Bold;
-  font-size: 64px;
+  font-size: 65px;
   opacity: 1;
   text-align: left;
-  margin-right: 20px;
+  margin-right: 0px;
 }
 .v1_24 {
-  width: 673px;
+  width: 900px;
   height: 724px;
-  background: rgba(196,196,196,1);
-  opacity: 1;
-  top: 230px;
-  left: 570px;
   overflow: hidden;
 }
 
 .contenedor-info {
-  width: 75%;
-  height: auto;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  overflow: hidden;
-  margin-left: 200px;
-}
-.imagenes-info {
-  width: 270px;
-  height: auto;
-}
-.v1_56 {
-  width: 270px;
-  height: 265px;
-  background: rgba(196, 196, 196, 1);
-  opacity: 1;
-  top: 100px; /* Ajusta la posición vertical para centrar */
-  left: 30px; /* Ajusta la posición horizontal para separación */
-  overflow: hidden;
-}
-
-.v1_57 {
-  width: 270px;
-  height: 345px;
-  background: rgb(225, 54, 54);
-  opacity: 1;
-  top: 100px; /* Ajusta la posición vertical para centrar */
-  left: 350px; /* Ajusta la posición horizontal para separación */
-  overflow: hidden;
-}
-
-.v1_58 {
-  width: 270px;
-  height: 140px;
-  background: rgba(196, 196, 196, 1);
-  opacity: 1;
-  top: 100px; /* Ajusta la posición vertical para centrar */
-  left: 670px; /* Ajusta la posición horizontal para separación */
-  overflow: hidden;
-}
-.contenedor-info {
+  width: 85%;
+  height: 400px;
+  margin-left: 140px;
+  margin-top: 300px;
   display: flex;
   align-items: center;
-  margin-top: 300px;
-  margin-left: 200px;
-  width: 1332px;
+  background-color: rgba(240, 240, 240, 0.734);
 }
 
 .imagenes-info {
-  display: flex;
   width: auto;
+  height: auto;
+  display: flex;
 }
 
-.v1_56,
-.v1_57,
-.v1_58 {
-  width: 270px;
-  height: 265px;
-  background: rgba(196, 196, 196, 1);
+.oficinas1 {
+  width: 320px;
+  height: 260px;
   margin-right: 20px; /* Espacio entre las imágenes */
+  margin-left: 20px; /* Espacio entre las imágenes */
+
 }
 
 .texto-info {
   width: 422px;
-  background: rgba(255, 255, 255, 1);
-  padding: 20px;
+  background-color: rgba(240, 240, 240, 0.734);
+  padding: 10px;
+  align-items: center;
 }
 
 .v1_55 {
@@ -254,15 +207,12 @@ body {
   width: 100%; 
   overflow: hidden;
   white-space: nowrap; /* Evitar que las imágenes se envuelvan a la siguiente línea */
-
+  margin-bottom: 5px;
 }
 
 .edificio-1 {
   width: 700px;
   height: 300px;
-  background-image: url('../images/v1_90.png');
-  background-size: cover;
-  background-position: center;
   display: inline-block; /* Mostrar las imágenes en línea horizontalmente */
   margin-right: 20px; /* Espacio entre las imágenes (ajusta según tus necesidades) */
   transition: transform 0.5s ease;
@@ -279,9 +229,6 @@ body {
 .edificio-3 {
   width: 455px;
   height: 300px;
-  background-image: url('../images/v1_89.png');
-  background-size: cover;
-  background-position: center;
   display: inline-block; /* Mostrar las imágenes en línea horizontalmente */
   margin-right: 20px; /* Espacio entre las imágenes (ajusta según tus necesidades) */
   transition: transform 0.5s ease;
