@@ -1,91 +1,84 @@
 .contenedor-header {
-    width: 100%;
-    height: 180px;
-    display: flex;
-    justify-content: space-evenly; /* Cambiar a space-evenly o space-around */
-    align-items: center;
-    background: rgba(255, 255, 255, 1);
-  }
-  
-  .contenedor-header .menu-item {
-    color: rgba(51, 51, 51, 1);
-    font-family: Roboto;
-    font-weight: normal;
-    font-size: 22px;
-    text-align: left;
-    margin: 0 0px;
-  }
-  
-  .contenedor-header .separator {
-    width: 68px;
-    height: 1px;
-    background: rgba(51, 51, 51, 1);
-    opacity: 1;
-    position: relative;
-    top: 0;
-    overflow: hidden;
-  }
-  
-  .contenedor-header .icono {
-    width: 175px;
-    height: 138px;
-    background-image: url('../contactos/images/IconoB_preview_rev_1.png'); /* Ruta relativa a la carpeta "public" */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 1;
-    top: 0;
-    left: 0;
-  }
-  
-  .contenedor-header .imagen {
-    width: 110px;
-    height: 110px;
-    background: url("../contactos/images/v818_288.png");
-    background-position: center;
-    background-size: cover;
-    opacity: 1;
-    top: 10px;
-    right: 10px;
-  }
-  
-  .login-modal {
-    position: fixed; /* Cambia a posición fija para que esté por encima de otros elementos */
-    top: 0; /* Coloca el cuadro en la parte superior de la página */
-    right: 0; /* Coloca el cuadro en la esquina superior derecha */
-    width: 300px; /* Ajusta el ancho según tus necesidades */
-    background: white; /* Fondo del cuadro de inicio de sesión */
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    z-index: 999; /* Asegura que el cuadro esté en la parte superior */
-  }
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: space-evenly; /* Cambiar a space-evenly o space-around */
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+}
 
-  input,
-  textarea {
-    width: 90%;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
+.contenedor-header .menu-item {
+  color: rgba(51, 51, 51, 1);
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: left;
+  margin: 0 0px;
+}
 
-  .large-text {
-    font-size: 20px; /* Tamaño de fuente más grande */
-    padding-bottom: 10px; /* Espacio adicional hacia abajo */
-    padding-right: 10px; /* Espacio adicional hacia la derecha */
-  }
+.contenedor-header .separator {
+  width: 68px;
+  height: 1px;
+  background: rgba(51, 51, 51, 1);
+  opacity: 1;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
 
-  button {
-    margin-top: 15px;
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
+.contenedor-header .icono {
+  width: 175px;
+  height: 138px;
+  opacity: 1;
+  top: 0;
+  left: 0;
+}
+
+.contenedor-header .imagen {
+  width: 112px;
+  height: 112px;
+  opacity: 1;
+  top: 10px;
+  right: 10px;
+}
+
+.login-modal {
+  position: fixed; /* Cambia a posición fija para que esté por encima de otros elementos */
+  top: 0; /* Coloca el cuadro en la parte superior de la página */
+  right: 0; /* Coloca el cuadro en la esquina superior derecha */
+  width: 300px; /* Ajusta el ancho según tus necesidades */
+  background: white; /* Fondo del cuadro de inicio de sesión */
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 999; /* Asegura que el cuadro esté en la parte superior */
+}
+
+input,
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.large-text {
+  font-size: 20px; /* Tamaño de fuente más grande */
+  padding-bottom: 10px; /* Espacio adicional hacia abajo */
+  padding-right: 10px; /* Espacio adicional hacia la derecha */
+}
+
+button {
+  margin-top: 15px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

@@ -96,33 +96,35 @@ body {
     text-align: left;
     margin-right: 20px;
   }
-  .contenedor-info {
-    width: 100%;
+  .contenedor-edificios-oficinas {
+    width: 80%;
     height: auto;
     opacity: 1;
     overflow: hidden;
-    margin-left: 250px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 150px;
     align-items: center;
     
   }
 
   .imagenes-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between; /* Distribuye el espacio entre las imágenes */
     width: 1400px;
     height: auto;
-    gap: 5px;
-    flex-wrap: wrap; /* Envuelve las imágenes en filas y columnas */
   }
-
-  .v1_56, .v1_57, .v1_58, .v1_59, .v1_60{
-    width: 440px;
+  
+  .imagenes-oficinas {
+    width: calc((100% - 40px) / 3); /* Calcula el ancho para 3 columnas con márgenes */
     height: 315px;
-    margin-right: 20px; /* Espacio entre las imágenes */
-    margin-bottom: 20px; /* Espacio entre las filas de imágenes */
+    margin-bottom: 20px;
     background: rgba(196, 196, 196, 1);
     opacity: 1;
     overflow: hidden;
   }
+  
   
   .v1_74 {
     width: 221px;

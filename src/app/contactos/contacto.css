@@ -1,144 +1,115 @@
 body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
-  
-  .Cotenedor-global {
-    width: 100%;
-    height: auto;
-    background: rgba(255, 255, 255, 1);
-    opacity: 1;
-    position: relative;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-  }
-  
-  .contenedor-header {
-    width: 100%;
-    height: 180px;
-    display: flex;
-    justify-content: space-evenly; /* Cambiar a space-evenly o space-around */
-    align-items: center;
-    background: rgba(255, 255, 255, 1);
-  }
-  
-  .contenedor-header .menu-item {
-    color: rgba(51, 51, 51, 1);
-    font-family: Roboto;
-    font-weight: normal;
-    font-size: 22px;
-    text-align: left;
-    margin: 0 0px;
-  }
-  
-  .contenedor-header .separator {
-    width: 68px;
-    height: 1px;
-    background: rgba(51, 51, 51, 1);
-    opacity: 1;
-    position: relative;
-    top: 0;
-    overflow: hidden;
-  }
-  
-  .login-modal {
-    position: fixed; /* Cambia a posición fija para que esté por encima de otros elementos */
-    top: 0; /* Coloca el cuadro en la parte superior de la página */
-    right: 0; /* Coloca el cuadro en la esquina superior derecha */
-    width: 300px; /* Ajusta el ancho según tus necesidades */
-    background: white; /* Fondo del cuadro de inicio de sesión */
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    z-index: 999; /* Asegura que el cuadro esté en la parte superior */
-  }
-  
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 
-  .contenedor-titulo {
-    display: flex;
-    width: auto;
-    height: auto;
-    align-items: flex-start;
-    padding: 40px;
-  }
-  
-  .titulos {
-    display: flex;
-    flex-direction: column;
-    margin: 0 150px;
-    margin-top: 0px;
-  }
-  
-  .contenedor-info {
-    width: 1400px;
-    height: auto;
-    margin-left: 250px;
-    margin-top: 10px;
-  }
+.Cotenedor-global {
+  width: 100%;
+  height: auto;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.login-modal {
+  position: fixed; /* Cambia a posición fija para que esté por encima de otros elementos */
+  top: 0; /* Coloca el cuadro en la parte superior de la página */
+  right: 0; /* Coloca el cuadro en la esquina superior derecha */
+  width: 300px; /* Ajusta el ancho según tus necesidades */
+  background: white; /* Fondo del cuadro de inicio de sesión */
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 999; /* Asegura que el cuadro esté en la parte superior */
+}
 
-  .contenedor-form{
-    width: 650px;
-    height: auto;
-    overflow: hidden;
-  }
 
-  .form {
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  label {
-    margin-top: 10px;
-    font-size: 20px; /* Tamaño de fuente más grande */
+.contenedor-titulo {
+  display: flex;
+  width: auto;
+  height: auto;
+  align-items: flex-start;
+  padding: 40px;
+}
 
-  }
-  
-  input,
-  textarea {
-    width: 90%;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
+.titulos {
+  display: flex;
+  flex-direction: column;
+  margin: 0 150px;
+  margin-top: 0px;
+}
 
-  .large-text {
-    font-size: 20px; /* Tamaño de fuente más grande */
-    padding-bottom: 10px; /* Espacio adicional hacia abajo */
-    padding-right: 10px; /* Espacio adicional hacia la derecha */
-  }
-  
-  
-  button {
-    margin-top: 15px;
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  .maps{
-    width: 1400px;
-    height: auto;
-  }
-  .imagen-maps{
-    width: 1010px;
-    height: 510px;
-    background-position: center;
-    background-size: cover;
-    opacity: 1;
-    top: 10px;
-    right: 10px;
-  }
+.contenedor-maps {
+  display: flex;
+  justify-content: center;
+
+}
+
+.contenedor-form {
+  width: 650px;
+  height: auto;
+  overflow: hidden;
+}
+
+.maps {
+  width: 50%;
+  height: auto;
+}
+.form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  margin-top: 10px;
+  font-size: 20px; /* Tamaño de fuente más grande */
+
+}
+
+input,
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.large-text {
+  font-size: 20px; /* Tamaño de fuente más grande */
+  padding-bottom: 10px; /* Espacio adicional hacia abajo */
+  padding-right: 10px; /* Espacio adicional hacia la derecha */
+}
+
+
+button {
+  margin-top: 15px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.imagen-maps{
+  width: 900px;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  top: 10px;
+  right: 10px;
+}

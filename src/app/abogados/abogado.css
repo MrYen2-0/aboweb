@@ -16,60 +16,6 @@ body {
     overflow: hidden;
 }
 
-.contenedor-header {
-    width: 100%;
-    height: 130px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: rgba(255, 255, 255, 1);
-    opacity: 1;
-    overflow: hidden;
-    position: relative;
-}
-
-.contenedor-header .menu-item {
-    color: rgba(51, 51, 51, 1);
-    font-family: Roboto;
-    font-weight: normal;
-    font-size: 20px;
-    text-align: left;
-    margin: 0 5px;
-}
-
-.contenedor-header .separator {
-    width: 68px;
-    height: 1px;
-    background: rgba(51, 51, 51, 1);
-    opacity: 1;
-    position: relative;
-    top: 0;
-    overflow: hidden;
-}
-
-.contenedor-header .icono {
-    width: 175px;
-    height: 138px;
-    background-image: url('./images/IconoB_preview_rev_1.png'); /* Ruta relativa a la carpeta "public" */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 1;
-    top: 0;
-    left: 0;
-}
-
-.contenedor-header .imagen {
-    width: 110px;
-    height: 110px;
-    background: url("./images/v818_288.png");
-    background-position: center;
-    background-size: cover;
-    opacity: 1;
-    top: 10px;
-    right: 10px;
-}
-
 .contenedor-titulo {
     display: flex;
     width: auto;
@@ -117,18 +63,24 @@ body {
     overflow: hidden;
 }
 
-.contenedor-info {
+.contenedor-abogados {
     width: 1650px;
     height: auto;
     overflow: hidden;
     margin-left: 130px;
 }
 
-.imagenes-info {
-    width: 100%;
-    height: auto;
+.imagenes-abogados {
+  display: flex;
+  width: 100%;
+  height: auto;
 }
-
+.cuadros-abogados{
+    width: 500px;
+    height: 450px;
+    background: rgba(196, 196, 196, 1);
+    margin-right: 30px;
+}
 .imagen-abogado{
   width: 175px;
   height: 195px;
@@ -164,17 +116,4 @@ body {
   margin: 20px;
   padding-top: 265px;
 }
-.v1_56,
-.v1_57,
-.v1_58 {
-    width: 500px;
-    height: 450px;
-    background: rgba(196, 196, 196, 1);
-    margin-right: 30px;
-}
 
-.texto-info {
-    width: 422px;
-    background: rgba(255, 255, 255, 1);
-    padding: 20px;
-}

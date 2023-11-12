@@ -1,21 +1,17 @@
 "use client";
 import { useState } from 'react';
 import '../abogados/abogado.css';
-import Header from '../componentes/Headeradmin'; // Asegúrate de importar Header desde el lugar correcto
+import Headeradmin from '../componentes/Headeradmin'; // Asegúrate de importar Header desde el lugar correcto
 
 function Page() {
-  // Estado para llevar un registro del número de cuadros creados
-  const [cuadroCount, setCuadroCount] = useState(3);
+  const [showForm, setShowForm] = useState(false);
+  const [showDeleteForm, setShowDeleteForm] = useState(false);
 
-  // Función para agregar un nuevo cuadro
-  const agregarCuadro = () => {
-    setCuadroCount(cuadroCount + 1);
-  };
   return (
     <div>
       <div className="Contenedor-global">
       <div>
-      <Header />
+      <Headeradmin />
     </div>
 <div className="contenedor-titulo">
   <div className="titulos">
@@ -23,92 +19,83 @@ function Page() {
     <div className="v1_23">De la firma</div>
   </div>
 </div>
-        <div className="contenedor-info">
-          <div className="imagenes-info">
-            
-          <div className="v1_56">
+        <div className="contenedor-abogados">
+          <div className="imagenes-abogados">
+          <div className="cuadros-abogados">
           <div className="texto-abogado">
               <div className="titulo-abogado">
-              Jose Luis Flores Cortes
+              Juan Carlos Garcia Perez 
               </div>
               <div className="descripcion-abogado">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-              , when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              Licenciado en derecho, maestría en derechos humanos y amparo, 
+              maestría en derecho de empresas, 
+              doctorado en derechos humanos. 
+              Miembro numerario de la Academia Mexicana del Derecho del Trabajo y de la Previsión Social, 
+              capítulo Chiapas, miembro de la Academia Mexicana del Derecho Procesal del Trabajo, capítulo Chiapas.
               </div>
             </div>
             <div className="imagen-abogado">
             </div>
             <div className="areas-abogado">
-            ÁREAS DE PRÁCTICA:   Civil, Mercantil, Laboral,
+            ÁREAS DE PRÁCTICA: Defensa de area empresarial 
             </div>
           </div>
-          <div className="v1_57">
+          <div className="cuadros-abogados">
           <div className="texto-abogado">
               <div className="titulo-abogado">
-              Jose Luis Flores Cortes
+              Martín Oswaldo Flores Vázquez
               </div>
               <div className="descripcion-abogado">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-              , when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              Licenciado en derecho, maestro en derechos humanos y amparo, 
+              doctorado en derechos humanos.
+               Miembro numerario de la Sociedad Legal Internacional "J. Reuben Clark".
               </div>
             </div>
             <div className="imagen-abogado">
             </div>
             <div className="areas-abogado">
-            ÁREAS DE PRÁCTICA:   Civil, Mercantil, Laboral,
+            ÁREAS DE PRÁCTICA:   Defensa del área empresarial
             </div>
           </div>
-          <div className="v1_58">
+          <div className="cuadros-abogados">
           <div className="texto-abogado">
               <div className="titulo-abogado">
-              Jose Luis Flores Cortes
+              Jimmy Alexander Castillejos Alfonzo
               </div>
               <div className="descripcion-abogado">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-              , when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              Licenciado en derecho y Maestrante en derechos humanos y amparo.
               </div>
             </div>
             <div className="imagen-abogado">
             </div>
             <div className="areas-abogado">
-            ÁREAS DE PRÁCTICA:   Civil, Mercantil, Laboral,
+            ÁREAS DE PRÁCTICA:   Defensa del área laboral trabajadora.
             </div>
           </div>
-          
-          <button id="agregar-cuadro" onClick={agregarCuadro}>+</button>
+          <button onClick={() => setShowForm(true)}>+</button>
+          <button style={{backgroundColor: 'red'}} onClick={() => setShowDeleteForm(true)}>Eliminar</button>
+
+            {showForm && (
+              <div className="overlay">
+              <div className="formulario-abogado">
+                <input type="text" placeholder="Nombre" />
+                <input type="text" placeholder="Área de práctica" />
+                <textarea placeholder="Descripción"></textarea>
+                <button style={{backgroundColor: 'red'}} onClick={() => setShowForm(false)}>Cancelar</button>
+                <button>Aceptar</button>
+              </div>
+            </div>
+            )}
+             {showDeleteForm && (
+              <div className="overlay">
+                <div className="formulario-abogado">
+                  <input type="text" placeholder="Nombre del abogado a eliminar" />
+                  <button style={{backgroundColor: 'blue'}} onClick={() => setShowDeleteForm(false)}>Cerrar</button>
+                  <button style={{backgroundColor: 'red'}}>Borrar</button>
+                </div>
+              </div>
+            )}
           </div>
-      </div>
-      <div className="contenedor-footer">
-        <div className="footer-container">
-          <div className="footer-info">
-      <div className="v1_125">Informacion</div>
-      <div className="v1_120">Menu</div>
-      <div className="v1_121">Galeria</div>
-      <div className="v1_122">Abogado</div>
-      <div className="v1_123">Contactos</div>
-      <div className="v1_124">Publicaciones</div>
-      </div>
-
-      <div className="footer-info">
-      <div className="v1_126">Contactos</div>
-      <div className="v1_136">1234 Sample Street Austin Texas 78704</div>
-      <div className="v1_117">512.333.2222</div>
-      <div className="v1_118">sampleemail@gmail.com</div>
-      </div>
-
-      <div className="footer-info">
-          <div className="v1_102">Medios sociales</div>
-          <div className="v1_104"></div>
-          <div className="v1_106"></div>
-        </div>
-        </div>
-
-          <div className="v1_98"></div>
-          <div className="v1_99">© 2021 All Rights Reserved</div>
-        
       </div>
     </div>
   </div>

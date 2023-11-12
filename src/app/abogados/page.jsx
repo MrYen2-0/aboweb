@@ -10,9 +10,9 @@ function Page() {
     <div className="v1_23">De la firma</div>
   </div>
 </div>
-        <div className="contenedor-info">
-          <div className="imagenes-info">
-          <div className="v1_56">
+        <div className="contenedor-abogados">
+          <div className="imagenes-abogados">
+          <div className="cuadros-abogados">
           <div className="texto-abogado">
               <div className="titulo-abogado">
               Juan Carlos Garcia Perez 
@@ -31,7 +31,7 @@ function Page() {
             ÁREAS DE PRÁCTICA: Defensa de area empresarial 
             </div>
           </div>
-          <div className="v1_57">
+          <div className="cuadros-abogados">
           <div className="texto-abogado">
               <div className="titulo-abogado">
               Martín Oswaldo Flores Vázquez
@@ -48,7 +48,7 @@ function Page() {
             ÁREAS DE PRÁCTICA:   Defensa del área empresarial
             </div>
           </div>
-          <div className="v1_58">
+          <div className="cuadros-abogados">
           <div className="texto-abogado">
               <div className="titulo-abogado">
               Jimmy Alexander Castillejos Alfonzo

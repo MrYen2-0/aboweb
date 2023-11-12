@@ -10,7 +10,7 @@ function Page() {
     <div className="v1_23">Contacto</div>
   </div>
 </div>
-        <div className="contenedor-info">
+        <div className="contenedor-maps">
             <div className="contenedor-form">
             <form>
       <label htmlFor="nombre">Nombre:</label>
