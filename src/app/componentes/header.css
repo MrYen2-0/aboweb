@@ -41,18 +41,40 @@
     top: 10px;
     right: 10px;
   }
-  
-  .login-modal {
-    position: fixed; /* Cambia a posición fija para que esté por encima de otros elementos */
-    top: 0; /* Coloca el cuadro en la parte superior de la página */
-    right: 0; /* Coloca el cuadro en la esquina superior derecha */
-    width: 300px; /* Ajusta el ancho según tus necesidades */
-    background: white; /* Fondo del cuadro de inicio de sesión */
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    z-index: 999; /* Asegura que el cuadro esté en la parte superior */
-  }
+  .login-modal-sesion, .register-modal {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: fadeIn 0.5s;
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    border: 2px solid #cccccc84;
 
+  }
+  
+  .login-content, .register-content {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    animation: slideIn 0.5s;
+  }
+  
+  /* Animaciones */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateY(-50px); }
+    to { transform: translateY(0); }
+  }
   input,
   textarea {
     width: 90%;
@@ -82,3 +104,13 @@
   button:hover {
     background-color: #0056b3;
   }
+  
+  .register-link {
+    color: navy;
+    cursor: pointer;
+  }
+  
+  .register-link:hover {
+    color: blue;
+  }
+  

@@ -1,13 +1,17 @@
 import '../abogados/abogado.css';
+import Header from '../componentes/Header';
 
 function Page() {
   return (
     <div>
       <div className="Contenedor-global">
+      <div>
+      <Header />
+    </div>
 <div className="contenedor-titulo">
   <div className="titulos">
-    <div className="v1_22">Abogados </div>
-    <div className="v1_23">De la firma</div>
+    <div className="titulo3">Abogados </div>
+    <div className="titulo4">De la firma</div>
   </div>
 </div>
         <div className="contenedor-abogados">

@@ -40,7 +40,26 @@ body {
   margin: 0 150px;
   margin-top: 0px;
 }
+.v1_22 {
+  width: auto; /* Ancho automático en función del contenido */
+  color: rgba(189, 189, 189, 1);
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 65px;
+  opacity: 1;
+  text-align: left;
+}
 
+.v1_23 {
+  width: 267px;
+  color: rgba(0, 102, 255, 0.81);
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 65px;
+  opacity: 1;
+  text-align: left;
+  margin-right: 0px;
+}
 .contenedor-maps {
   display: flex;
   justify-content: center;

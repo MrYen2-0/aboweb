@@ -1,33 +1,20 @@
 "use client";
-import Link from 'next/link';
 import React, { useState } from 'react';
+import Link from 'next/link';
 
-const LoginModal = ({ onClose }) => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-
-  const handleLogin = () => {
-    // Aquí puedes manejar la lógica de inicio de sesión, por ejemplo, enviando una solicitud al servidor.
+const ProfileModal = ({ onClose, user }) => {
+  const handleLogout = () => {
+    // Aquí puedes manejar la lógica de cierre de sesión, por ejemplo, eliminando la información del usuario.
   };
 
   return (
-    <div className="login-modal">
-      <div className="login-content">
-        <h2>Iniciar sesión</h2>
-        <input
-          type="text"
-          placeholder="Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <input
-          type="password"
-          placeholder="Contraseña"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <Link href="/admin/menu">
-        <button onClick={handleLogin}>Entrar</button>
+    <div className="profile-modal">
+      <div className="profile-content">
+        <h2>Perfil</h2>
+        <p>Nombre: {user.name}</p>
+        <p>Email: {user.email}</p>
+        <Link href="/">
+        <button onClick={handleLogout}>Cerrar sesión</button>
         </Link>
         <button onClick={onClose}>Cerrar</button>
       </div>
@@ -35,4 +22,20 @@ const LoginModal = ({ onClose }) => {
   );
 };
 
-export default LoginModal;
+const App = () => {
+  const [user, setUser] = useState({ name: 'Administrador', email: 'admin@gmail.com' });
+  const [showProfile, setShowProfile] = useState(true);
+
+  const handleLogout = () => {
+    setUser(null);
+    setShowProfile(false);
+  };
+
+  if (showProfile && user) {
+    return <ProfileModal onClose={() => setShowProfile(false)} onLogout={handleLogout} user={user} />;
+  }
+
+  return null;
+};
+
+export default App;

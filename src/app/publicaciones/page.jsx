@@ -1,9 +1,14 @@
 import '../publicaciones/publicacion.css';
+import Header from '../componentes/Header';
+
 
 function Page() {
   return (
     <div>
       <div className="Contenedor-global">
+      <div>
+      <Header />
+    </div>
 <div className="contenedor-titulo">
   <div className="titulos">
     <div className="v1_22">Nuestras </div>
