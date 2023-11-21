@@ -13,12 +13,41 @@ function Page() {
       <div>
       <Headeradmin />
     </div>
-<div className="contenedor-titulo">
+    <div className="contenedor-titulo">
   <div className="titulos">
     <div className="titulo3">Abogados </div>
     <div className="titulo4">De la firma</div>
   </div>
+  <div className="botones">
+    <button className="boton" onClick={() => setShowForm(true)}>Agregar abogado</button>
+    <button className="boton" style={{backgroundColor: 'red'}} onClick={() => setShowDeleteForm(true)}>Eliminar abogado</button>
+  </div>
+  {showForm && (
+    <div className="overlay">
+      <div className="formulario-abogado">
+        <input type="text" placeholder="Nombre" />
+        <input type="text" placeholder="Área de práctica" />
+        <textarea placeholder="Descripción"></textarea>
+        <div className="botones">
+        <button style={{backgroundColor: 'red'}} onClick={() => setShowForm(false)}>Cancelar</button>
+        <button>Aceptar</button>
+        </div>
+      </div>
+    </div>
+  )}
+  {showDeleteForm && (
+    <div className="overlay">
+      <div className="formulario-abogado">
+        <input type="text" placeholder="Nombre del abogado a eliminar" />
+        <div className="botones">
+        <button style={{backgroundColor: 'blue'}} onClick={() => setShowDeleteForm(false)}>Cerrar</button>
+        <button style={{backgroundColor: 'red'}}>Borrar</button>
+      </div>      
+      </div>
+    </div>
+  )}
 </div>
+
         <div className="contenedor-abogados">
           <div className="imagenes-abogados">
           <div className="cuadros-abogados">
@@ -74,29 +103,6 @@ function Page() {
             ÁREAS DE PRÁCTICA:   Defensa del área laboral trabajadora.
             </div>
           </div>
-          <button onClick={() => setShowForm(true)}>+</button>
-          <button style={{backgroundColor: 'red'}} onClick={() => setShowDeleteForm(true)}>Eliminar</button>
-
-            {showForm && (
-              <div className="overlay">
-              <div className="formulario-abogado">
-                <input type="text" placeholder="Nombre" />
-                <input type="text" placeholder="Área de práctica" />
-                <textarea placeholder="Descripción"></textarea>
-                <button style={{backgroundColor: 'red'}} onClick={() => setShowForm(false)}>Cancelar</button>
-                <button>Aceptar</button>
-              </div>
-            </div>
-            )}
-             {showDeleteForm && (
-              <div className="overlay">
-                <div className="formulario-abogado">
-                  <input type="text" placeholder="Nombre del abogado a eliminar" />
-                  <button style={{backgroundColor: 'blue'}} onClick={() => setShowDeleteForm(false)}>Cerrar</button>
-                  <button style={{backgroundColor: 'red'}}>Borrar</button>
-                </div>
-              </div>
-            )}
           </div>
       </div>
     </div>

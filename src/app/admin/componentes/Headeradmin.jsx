@@ -31,9 +31,6 @@ const Header = () => {
       <Link href="/admin/abogados">
         <div className="menu-item">Abogados</div>
       </Link>
-      <Link href="/admin/firmas">
-        <div className="menu-item">Firmas</div>
-      </Link>
       <Link href="/admin/contactos">
       <div className="menu-item">Contactos</div>
       </Link>

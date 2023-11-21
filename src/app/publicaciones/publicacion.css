@@ -49,12 +49,13 @@
 }
 
 .imagen-firmas{
-  width: 55%;
+  width: 40%;
+  height: 400px;
 float: left;
 }
 
 .texto-firmas {
-width: 40%;
+width: 50%;
 height: auto; /* O ajusta el ancho que desees */
 float: right; 
 clear: both;
@@ -82,7 +83,7 @@ margin: 30px;
 padding-top: 45px;
 }
 .v1_56{
-  width: 70%;
+  width: 65%;
   height: auto;
   background: rgb(222, 222, 222);
   margin-bottom: 60px;

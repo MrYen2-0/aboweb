@@ -39,6 +39,7 @@ const Register = () => {
           value={confirmPassword}
           onChange={(e) => setConfirmPassword(e.target.value)}
         />
+        
         <button onClick={handleRegister}>Registrarse</button>
       </div>
     </div>

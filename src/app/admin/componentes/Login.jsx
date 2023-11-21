@@ -13,10 +13,12 @@ const ProfileModal = ({ onClose, user }) => {
         <h2>Perfil</h2>
         <p>Nombre: {user.name}</p>
         <p>Email: {user.email}</p>
+        <div className="botones">
         <Link href="/">
         <button onClick={handleLogout}>Cerrar sesión</button>
         </Link>
         <button onClick={onClose}>Cerrar</button>
+        </div>
       </div>
     </div>
   );

@@ -31,7 +31,7 @@ function Page() {
                finiquito correspondiente.
               </div>
             </div>
-            <img src="/images/oficinas2.jpg" className="imagen-firmas"/>
+            <img src="/images/OIP.png" className="imagen-firmas"/>
           </div>
           <div className="v1_56">
           <div className="texto-firmas">
@@ -50,7 +50,7 @@ function Page() {
                  se condenará a la empresa.
               </div>
             </div>
-            <img src="/images/oficinas2.jpg" className="imagen-firmas"/>
+            <img src="/images/CristalS.png" className="imagen-firmas"/>
 
           </div>
           <div className="v1_56">
@@ -66,7 +66,7 @@ function Page() {
                se logró que no se condenara a la empresa.
               </div>
             </div>
-            <img src="/images/oficinas2.jpg" className="imagen-firmas"/>
+            <img src="/images/tony.jpg" className="imagen-firmas"/>
           </div>
           </div>
       </div>

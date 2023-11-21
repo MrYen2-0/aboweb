@@ -61,3 +61,9 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+.botones {
+  display: flex;
+  justify-content: center; /* Centra los botones horizontalmente */
+  gap: 20px; /* Espacio entre los botones */
+}

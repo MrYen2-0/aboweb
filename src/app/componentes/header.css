@@ -90,7 +90,10 @@
     padding-bottom: 10px; /* Espacio adicional hacia abajo */
     padding-right: 10px; /* Espacio adicional hacia la derecha */
   }
-
+  .botones {
+    display: flex;
+    gap: 20px; /* Espacio entre los botones */
+  }
   button {
     margin-top: 15px;
     background-color: #007bff;

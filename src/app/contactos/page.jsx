@@ -10,7 +10,6 @@ const FormField = ({ label, type, id }) => (
 
 function Page() {
   const fields = [
-    { label: 'Nombre:', type: 'text', id: 'nombre' },
     { label: 'Numero de telefono:', type: 'tel', id: 'telefono' },
     { label: 'Titulo de la cita:', type: 'text', id: 'titulo' },
   ];

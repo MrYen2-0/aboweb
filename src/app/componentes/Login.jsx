@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 
-
 const RegisterModal = ({ onClose }) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -41,8 +40,10 @@ const RegisterModal = ({ onClose }) => {
           value={confirmPassword}
           onChange={(e) => setConfirmPassword(e.target.value)}
         />
-        <button onClick={handleRegister}>Registrarse</button>
-        <button onClick={onClose}>Cerrar</button>
+        <div className="botones">
+          <button onClick={handleRegister}>Registrarse</button>
+          <button onClick={onClose}>Cerrar</button>
+        </div>
       </div>
     </div>
   );
@@ -62,29 +63,30 @@ const LoginModal = ({ onClose }) => {
   }
 
   return (
-<div className="login-modal-sesion">
-  <div className="login-content">
-    <h2>Iniciar sesión</h2>
-    <input
-      type="text"
-      placeholder="Email"
-      value={email}
-      onChange={(e) => setEmail(e.target.value)}
-    />
-    <input
-      type="password"
-      placeholder="Contraseña"
-      value={password}
-      onChange={(e) => setPassword(e.target.value)}
-    />
-    <Link href="/admin/contactos">
-    <button onClick={handleLogin}>Entrar</button>
-    </Link>
-    <button onClick={onClose}>Cerrar</button>
-    <p>No tiene cuenta? <span className="register-link" onClick={() => setShowRegister(true)}>Registrate</span></p>
-  </div>
-</div>
-
+    <div className="login-modal-sesion">
+      <div className="login-content">
+        <h2>Iniciar sesión</h2>
+        <input
+          type="text"
+          placeholder="Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <input
+          type="password"
+          placeholder="Contraseña"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+        <div className="botones">
+          <Link href="/admin/contactos">
+            <button onClick={handleLogin}>Entrar</button>
+          </Link>
+          <button onClick={onClose}>Cerrar</button>
+        </div>
+        <p>¿No tienes cuenta? <span className="register-link" onClick={() => setShowRegister(true)}>Regístrate</span></p>
+      </div>
+    </div>
   );
 };
 
