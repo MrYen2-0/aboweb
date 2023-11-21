@@ -77,7 +77,7 @@ const LoginModal = ({ onClose }) => {
       value={password}
       onChange={(e) => setPassword(e.target.value)}
     />
-    <Link href="/admin/menu">
+    <Link href="/admin/contactos">
     <button onClick={handleLogin}>Entrar</button>
     </Link>
     <button onClick={onClose}>Cerrar</button>

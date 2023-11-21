@@ -25,9 +25,6 @@ const Header = () => {
   return (
     <div className="contenedor-header">
       <div className="v1_161"></div>
-      <Link href="/admin/menu">
-        <div className="menu-item">Menu</div>
-      </Link>
       <Link href="/admin/galeria">
         <div className="menu-item">Galeria</div>
       </Link>

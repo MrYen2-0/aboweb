@@ -1,6 +1,6 @@
 "use client";
 import { useState } from 'react';
-import '../abogados/abogado.css';
+import '../abogados/adminabogado.css';
 import Headeradmin from '../componentes/Headeradmin'; // Asegúrate de importar Header desde el lugar correcto
 
 function Page() {
@@ -15,8 +15,8 @@ function Page() {
     </div>
 <div className="contenedor-titulo">
   <div className="titulos">
-    <div className="v1_22">Abogados </div>
-    <div className="v1_23">De la firma</div>
+    <div className="titulo3">Abogados </div>
+    <div className="titulo4">De la firma</div>
   </div>
 </div>
         <div className="contenedor-abogados">
@@ -30,11 +30,11 @@ function Page() {
               Licenciado en derecho, maestría en derechos humanos y amparo, 
               maestría en derecho de empresas, 
               doctorado en derechos humanos. 
-              Miembro numerario de la Academia Mexicana del Derecho del Trabajo y de la Previsión Social, 
-              capítulo Chiapas, miembro de la Academia Mexicana del Derecho Procesal del Trabajo, capítulo Chiapas.
+              Miembro de la Academia Mexicana del Derecho Procesal del Trabajo, capítulo Chiapas.
               </div>
             </div>
             <div className="imagen-abogado">
+            <img src="/images/persona.png" className="persona-abogado" alt="persona-abogado"/>
             </div>
             <div className="areas-abogado">
             ÁREAS DE PRÁCTICA: Defensa de area empresarial 
@@ -52,6 +52,7 @@ function Page() {
               </div>
             </div>
             <div className="imagen-abogado">
+            <img src="/images/persona.png" className="persona-abogado" alt="persona-abogado"/>
             </div>
             <div className="areas-abogado">
             ÁREAS DE PRÁCTICA:   Defensa del área empresarial
@@ -67,6 +68,7 @@ function Page() {
               </div>
             </div>
             <div className="imagen-abogado">
+            <img src="/images/persona.png" className="persona-abogado" alt="persona-abogado"/>
             </div>
             <div className="areas-abogado">
             ÁREAS DE PRÁCTICA:   Defensa del área laboral trabajadora.
