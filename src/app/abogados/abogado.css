@@ -47,34 +47,37 @@
 
 .contenedor-abogados {
     width: 100%;
-    height: auto;
+    height: 100%;
     overflow: hidden;
 }
 
 .imagenes-abogados {
   display: flex;
   width: 100%;
-  height: auto;
-  margin-left: 130px;
+  height: 100%;
+  margin-left: 50px;
 
 }
 .cuadros-abogados{
-    width: 26%;
-    height:auto;
+    width: 28%;
+    height: 1000%;
     background: rgba(196, 196, 196, 1);
     margin-right: 30px;
+    padding: 10px;
 }
 .imagen-abogado{
-  width: 175px;
-  height: 195px;
-  background-image: url('./images/persona.png'); /* Ruta relativa a la carpeta "public" */
-  background-size: cover;
-  margin-top: 80px;
-  margin-left: 25px;
+  width: 40%;
+  height: 60%;
+  margin-top: 10px;
+  float: left;
+}
+.persona-abogado{
+  width: 100%;
+  height: 100%;
   float: left;
 }
 .texto-abogado {
-  width: 50%;
+  width: 40%;
   height: auto; /* O ajusta el ancho que desees */
   float: right; 
   clear: both;
@@ -86,7 +89,6 @@
   font-size: 24px; /* Tamaño de fuente para el título */
   font-weight: bold; /* Texto en negrita */
   color: #333; /* Color del texto, puedes ajustarlo según tu diseño */
-  margin-bottom: 10px; /* Espacio inferior entre el título y la descripción */
 }
 
 .descripcion-abogado {
@@ -95,8 +97,8 @@
   line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
 }
 .areas-abogado{
-  width: 170px;
-  margin: 20px;
+  width: 30%;
+  margin: 10px;
   padding-top: 265px;
 }
 
