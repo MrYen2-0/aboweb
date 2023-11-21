@@ -4,8 +4,26 @@ body {
   margin: 0; /* Eliminar los márgenes predeterminados del cuerpo */
   padding: 0;
   width: 100%;
+  height: auto;
+  background: rgba(255,255,255,1);
 }
-
+.Cotenedor-global {
+  width: 100%;
+  height: auto;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.contenedor-titulo {
+  display: flex;
+  width: auto;
+  height: auto;
+  align-items: flex-start;
+  padding: 40px;
+}
 
 .contenedor-header .icono {
   width: 176px;

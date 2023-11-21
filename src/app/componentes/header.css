@@ -1,6 +1,6 @@
 .contenedor-header {
     width: 100%;
-    height: 180px;
+    height: 160px;
     display: flex;
     justify-content: space-evenly; /* Cambiar a space-evenly o space-around */
     align-items: center;

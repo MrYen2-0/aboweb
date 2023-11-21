@@ -1,20 +1,3 @@
-body {
-  font-size: 14px;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-.Cotenedor-global {
-  width: 100%;
-  height: auto;
-  background: rgba(255, 255, 255, 1);
-  opacity: 1;
-  position: relative;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-}
 .contenedor-titulo {
   display: flex;
   width: auto;
@@ -51,25 +34,25 @@ body {
 }
 
 .contenedor-firmas {
-  width: 80%;
+  width: 100%;
   height: auto;
   overflow: hidden;
-  margin-left: 250px;
 }
 
 .imagenes-firmas {
-  width: auto;
+  width: 100%;
   height: auto;
   display: flex; /* Hacer que los elementos hijos se distribuyan verticalmente */
   flex-direction: column; /* Alineación vertical */
+  margin-left: 250px;
+
 }
 
 .imagen-firmas{
-width: 605px;
-height: 400px;
-background-size: cover;
+  width: 55%;
 float: left;
 }
+
 .texto-firmas {
 width: 40%;
 height: auto; /* O ajusta el ancho que desees */
@@ -99,56 +82,10 @@ margin: 30px;
 padding-top: 45px;
 }
 .v1_56{
-  width: 1200px;
-  height: 400px;
+  width: 70%;
+  height: auto;
   background: rgb(222, 222, 222);
   margin-bottom: 60px;
 }
 
-.v1_55 {
-  width: 470px;
-  color: rgb(213, 213, 213);
-  font-family: Roboto;
-  font-weight: light;
-  font-size: 48px;
-  text-align: left;
-}
-.v1_62 {
-  color: rgba(51, 51, 51, 1);
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 12px;
-  text-align: left;
-}
-
-.v1_64 {
-  width: 400px;
-  color: rgba(0, 0, 0, 1);
-  font-family: Roboto;
-  font-weight: Light;
-  font-size: 16px;
-  text-align: left;
-}
-.v1_74 {
-  width: 221px;
-  height: 71px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 694px;
-  left: 948px;
-  overflow: hidden;
-}
-.v1_77 {
-  width: 109px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 6px;
-  left: 0px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 12px;
-  opacity: 1;
-  text-align: left;
-}
 

@@ -23,8 +23,8 @@ const Footer = () => {
 
     <div className="footer-info">
         <div className="v1_102">Medios sociales</div>
-        <img src="/images/facebook.png" className="v1_104"/>
-        <img src="/images/twitter2.png" className="v1_106"/>
+        <img src="/images/facebook.png" className="v1_104" alt="Descripción de la imagen"/>
+        <img src="/images/twitter2.png" className="v1_106" alt="Descripción de la imagen"/>
       </div>
       </div>
       <div className="v1_98"></div>

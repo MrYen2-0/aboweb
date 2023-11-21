@@ -4,7 +4,7 @@ body {
   width: 100%;
 }
 
-.Cotenedor-global {
+.Contenedor-global {
   width: 100%;
   height: auto;
   background: rgba(255, 255, 255, 1);
@@ -14,17 +14,17 @@ body {
   left: 0;
   overflow: hidden;
 }
+
 .login-modal {
-  position: fixed; /* Cambia a posición fija para que esté por encima de otros elementos */
-  top: 0; /* Coloca el cuadro en la parte superior de la página */
-  right: 0; /* Coloca el cuadro en la esquina superior derecha */
-  width: 300px; /* Ajusta el ancho según tus necesidades */
-  background: white; /* Fondo del cuadro de inicio de sesión */
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  background: white;
   padding: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  z-index: 999; /* Asegura que el cuadro esté en la parte superior */
+  z-index: 999;
 }
-
 
 .contenedor-titulo {
   display: flex;
@@ -40,8 +40,9 @@ body {
   margin: 0 150px;
   margin-top: 0px;
 }
-.v1_22 {
-  width: auto; /* Ancho automático en función del contenido */
+
+.v1_22, .v1_23 {
+  width: auto;
   color: rgba(189, 189, 189, 1);
   font-family: Roboto;
   font-weight: Light;
@@ -53,31 +54,23 @@ body {
 .v1_23 {
   width: 267px;
   color: rgba(0, 102, 255, 0.81);
-  font-family: Roboto;
   font-weight: Bold;
-  font-size: 65px;
-  opacity: 1;
-  text-align: left;
   margin-right: 0px;
 }
+
 .contenedor-maps {
+  width: 100%;
   display: flex;
   justify-content: center;
-
 }
 
 .contenedor-form {
-  width: 650px;
+  width:  30%;
   height: auto;
   overflow: hidden;
 }
-
-.maps {
-  width: 50%;
-  height: auto;
-}
 .form {
-  width: 500px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -86,14 +79,17 @@ body {
   border-radius: 5px;
 }
 
-label {
+label, .large-text {
   margin-top: 10px;
-  font-size: 20px; /* Tamaño de fuente más grande */
-
+  font-size: 20px;
 }
 
-input,
-textarea {
+.large-text {
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+input, textarea {
   width: 90%;
   padding: 10px;
   margin-top: 5px;
@@ -101,13 +97,6 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-
-.large-text {
-  font-size: 20px; /* Tamaño de fuente más grande */
-  padding-bottom: 10px; /* Espacio adicional hacia abajo */
-  padding-right: 10px; /* Espacio adicional hacia la derecha */
-}
-
 
 button {
   margin-top: 15px;
@@ -124,11 +113,15 @@ button:hover {
 }
 
 .imagen-maps{
-  width: 900px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   background-position: center;
   background-size: cover;
   opacity: 1;
   top: 10px;
   right: 10px;
+}
+.maps {
+  width: 50%;
+  height: auto;
 }

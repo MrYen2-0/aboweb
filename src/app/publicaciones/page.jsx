@@ -20,31 +20,35 @@ function Page() {
           <div className="v1_56">
           <div className="texto-firmas">
               <div className="titulo-firmas">
-              Sample Project              </div>
-              <div className="descripcion-firmas">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-              , when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              Jose N. Grupo Pepsico              
               </div>
-              <div className="areas-abogado">
-            Ver mas 
-            </div>
+              <div className="descripcion-firmas">
+              Trabajador demanda despido injustificado y 
+              se acredita en el juicio ante el juez que 
+              el renunció voluntariamente y no condenaron
+               a la empresa, ya que se exhibió la 
+               renuncia escrita con huella y firma y su 
+               finiquito correspondiente.
+              </div>
             </div>
             <img src="/images/oficinas2.jpg" className="imagen-firmas"/>
           </div>
           <div className="v1_56">
           <div className="texto-firmas">
               <div className="titulo-firmas">
-              Jose Luis Flores Cortes
+               Benjamin N vs Cristasur, S A de CV
               </div>
               <div className="descripcion-firmas">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-              , when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              Trabajador que demanda un riesgo de trabajo, 
+              alegando que perdió la vista de un ojo por un 
+              accidente que sufrió en la empresa, con las pruebas
+               que se ofrecieron se acreditó que la pedida de la 
+               vista no fue derivado del accidente que dijo tener, 
+               sino que perdió la vista por una mala atención a su 
+               Diabetes y generó que perdiera la vista, ya se
+                ofreció la pericial médica y arrojó al final que no
+                 se condenará a la empresa.
               </div>
-              <div className="areas-abogado">
-            Ver mas 
-            </div>
             </div>
             <img src="/images/oficinas2.jpg" className="imagen-firmas"/>
 
@@ -52,16 +56,15 @@ function Page() {
           <div className="v1_56">
           <div className="texto-firmas">
               <div className="titulo-firmas">
-              Jose Luis Flores Cortes
+              Rubén N vs Tony tiendas               
               </div>
               <div className="descripcion-firmas">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-              , when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              Trabajador argumenta ser despedido en una fecha
+               y la empresa se defiende diciendo que el trabajador 
+               abandonó el empleo Porque ya estaba trabajando para 
+               otra empresa y se acreditó con informes al IMSS y 
+               se logró que no se condenara a la empresa.
               </div>
-              <div className="areas-abogado">
-            Ver mas 
-            </div>
             </div>
             <img src="/images/oficinas2.jpg" className="imagen-firmas"/>
           </div>

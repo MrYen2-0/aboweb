@@ -42,28 +42,6 @@
   right: 10px;
 }
 
-.login-modal {
-  position: fixed; /* Cambia a posición fija para que esté por encima de otros elementos */
-  top: 0; /* Coloca el cuadro en la parte superior de la página */
-  right: 0; /* Coloca el cuadro en la esquina superior derecha */
-  width: 300px; /* Ajusta el ancho según tus necesidades */
-  background: white; /* Fondo del cuadro de inicio de sesión */
-  margin-top: 100px;
-  padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  z-index: 990; /* Asegura que el cuadro esté en la parte superior */
-}
-
-input,
-textarea {
-  width: 90%;
-  padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
 .large-text {
   font-size: 20px; /* Tamaño de fuente más grande */
   padding-bottom: 10px; /* Espacio adicional hacia abajo */
