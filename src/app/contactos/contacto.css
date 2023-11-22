@@ -1,20 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-.Contenedor-global {
-  width: 100%;
-  height: auto;
-  background: rgba(255, 255, 255, 1);
-  opacity: 1;
-  position: relative;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-}
-
 .login-modal {
   position: fixed;
   top: 0;
@@ -26,7 +9,7 @@ body {
   z-index: 999;
 }
 
-.contenedor-titulo {
+.contenedor-titulo14{
   display: flex;
   width: auto;
   height: auto;
@@ -34,14 +17,14 @@ body {
   padding: 40px;
 }
 
-.titulos {
+.titulos-contacto {
   display: flex;
   flex-direction: column;
   margin: 0 150px;
   margin-top: 0px;
 }
 
-.v1_22, .v1_23 {
+.titulo12, .titulo13 {
   width: auto;
   color: rgba(189, 189, 189, 1);
   font-family: Roboto;
@@ -51,7 +34,7 @@ body {
   text-align: left;
 }
 
-.v1_23 {
+.titulo13 {
   width: 267px;
   color: rgba(0, 102, 255, 0.81);
   font-weight: Bold;
@@ -67,7 +50,7 @@ body {
 .contenedor-form {
   width:  30%;
   height: auto;
-  overflow: hidden;
+  margin: 20px;
 }
 .form {
   width: 100%;
@@ -112,16 +95,19 @@ button:hover {
   background-color: #0056b3;
 }
 
-.imagen-maps{
+.maps {
+  width: 50%;
+  height: auto;
+  margin: 20px; /* Esto añade un margen alrededor del mapa */
+
+}
+.mapa-incrustado {
   width: 100%;
   height: 100%;
   background-position: center;
   background-size: cover;
   opacity: 1;
-  top: 10px;
   right: 10px;
-}
-.maps {
-  width: 50%;
-  height: auto;
+  border-radius: 15px;
+  border: 0px;
 }
