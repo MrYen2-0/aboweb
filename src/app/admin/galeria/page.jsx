@@ -1,5 +1,8 @@
+"use client";
 import '../galeria/galeria.css';
 import Headeradmin from '../componentes/Headeradmin';
+import React from 'react';
+import Zoom from '../componentes/Zoom';
 
 function Page() {
   return (
@@ -8,24 +11,15 @@ function Page() {
       <div>
       <Headeradmin />
     </div>
-<div className="contenedor-titulo">
+    <div className="contenedor-edificiotitulo">
   <div className="titulos">
     <div className="v1_22">Edificio & </div>
     <div className="v1_23">Oficinas</div>
   </div>
 </div>
         <div className="contenedor-edificios-oficinas">
-        <div class="imagenes-info">
-    <div class="imagenes-oficinas"></div>
-    <div class="imagenes-oficinas"></div>
-    <div class="imagenes-oficinas"></div>
-    <div class="imagenes-oficinas"></div>
-    <div class="imagenes-oficinas"></div>
-    <div class="imagenes-oficinas"></div>
-    <div class="imagenes-oficinas"></div>
-    <div class="imagenes-oficinas"></div>
-    <div class="imagenes-oficinas"></div>
-</div>    
+        <Zoom />
+ 
 </div>
     </div>
       </div>

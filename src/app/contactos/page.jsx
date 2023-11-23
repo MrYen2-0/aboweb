@@ -10,8 +10,8 @@ const FormField = ({ label, type, id }) => (
 
 function Page() {
   const fields = [
-    { label: 'Numero de telefono:', type: 'tel', id: 'telefono' },
-    { label: 'Titulo de la cita:', type: 'text', id: 'titulo' },
+    { label: 'Número de teléfono:', type: 'tel', id: 'telefono' },
+    { label: 'Título de la cita:', type: 'text', id: 'titulo' },
   ];
 
   return (
@@ -19,7 +19,7 @@ function Page() {
       <Header />
       <div className="contenedor-titulo14">
         <div className="titulos-contacto">
-          <div className="titulo12">Informacion de </div>
+          <div className="titulo12">Información de  </div>
           <div className="titulo13">Contacto</div>
         </div>
       </div>
@@ -27,7 +27,7 @@ function Page() {
         <div className="contenedor-form">
           <form>
             {fields.map(field => <FormField key={field.id} {...field} />)}
-            <label htmlFor="comentario" className="large-text">Descripcion para la cita:</label>
+            <label htmlFor="comentario" className="large-text">Descripción para la cita:</label>
             <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
             <button type="submit">Enviar mensaje</button>
           </form>

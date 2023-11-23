@@ -9,7 +9,8 @@
 .titulos {
   display: flex;
   flex-direction: column;
-  margin:100px;
+  margin: 0 150px;
+  margin-top: 160px;
 }
 
 .titulo3 {
@@ -34,6 +35,16 @@
   margin-right: 20px;
 }
 
+.v1_24 {
+  width: 673px;
+  height: 724px;
+  background: rgba(196, 196, 196, 1);
+  opacity: 1;
+  top: 230px;
+  left: 570px;
+  overflow: hidden;
+}
+
 .contenedor-abogados {
   width: 100%;
   height: 100%;
@@ -41,115 +52,53 @@
 }
 
 .imagenes-abogados {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  margin-left: 50px;
-}
+display: flex;
+width: 100%;
+height: 100%;
+margin-left: 50px;
 
+}
 .cuadros-abogados{
-  width: 25%;
-  height: 400px;
+  width: 28%;
+  height: auto;
   background: rgba(196, 196, 196, 1);
   margin-right: 30px;
   padding: 10px;
 }
-
 .imagen-abogado{
-  width: 40%;
-  height: auto;
-  margin-top: 10px;
-  float: left;
+width: 40%;
+height: 60%;
+margin-top: 10px;
+float: left;
 }
-
 .persona-abogado{
-  width: 100%;
-  height: 100%;
-  float: left;
+width: 100%;
+height: 100%;
+float: left;
 }
-
 .texto-abogado {
-  width: 50%;
-  height: 50%; /* O ajusta el ancho que desees */
-  float: right; 
-  clear: both;
-  align-self: flex-start;
-  margin-top: 45px;
-  margin-right: 20px;
+width: 40%;
+height: auto; /* O ajusta el ancho que desees */
+float: right; 
+clear: both;
+align-self: flex-start;
+margin-top: 45px;
+margin-right: 20px;
 }
-
 .titulo-abogado {
-  font-size: 24px; /* Tamaño de fuente para el título */
-  font-weight: bold; /* Texto en negrita */
-  color: #333; /* Color del texto, puedes ajustarlo según tu diseño */
+font-size: 20px; /* Tamaño de fuente para el título */
+font-weight: bold; /* Texto en negrita */
+color: #333; /* Color del texto, puedes ajustarlo según tu diseño */
 }
 
 .descripcion-abogado {
-  font-size: 17px; /* Tamaño de fuente para la descripción */
-  color: #666; /* Color del texto, puedes ajustarlo según tu diseño */
-  line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
+font-size: 14px; /* Tamaño de fuente para la descripción */
+color: #666; /* Color del texto, puedes ajustarlo según tu diseño */
+line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
 }
-
 .areas-abogado{
-  width: 30%;
-  clear: both; /* Agrega esta línea para que 'areas-abogado' esté debajo de 'imagen-abogado' */
-}
-.overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+width: 40%;
+margin: 0px;
+padding-top: 30%;
 }
 
-.formulario-abogado {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: white;
-  padding: 20px;
-  width: 50%;
-  max-width: 500px;
-  margin: 0 auto;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.formulario-abogado input,
-.formulario-abogado textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.formulario-abogado button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-.formulario-abogado button:last-child {
-  margin-left: 10px;
-}
-
-
-.botones {
-  display: flex;
-  justify-content: center; /* Centra los botones horizontalmente */
-  gap: 20px; /* Espacio entre los botones */
-  padding-top: 10%;
-}
-
-.boton {
-  padding: 10px 20px; /* Aumenta el tamaño de los botones */
-  /* Añade las propiedades que necesites para los botones */
-}

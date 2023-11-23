@@ -24,12 +24,12 @@ const Header = () => {
 
   return (
     <div className="contenedor-header">
-      <div className="v1_161"></div>
+      <div className="container-menuinicio">
       <Link href="/">
-        <div className="menu-item">Menu</div>
+        <div className="menu-item">Menú</div>
       </Link>
       <Link href="/galeria">
-        <div className="menu-item">Galeria</div>
+        <div className="menu-item">Galería</div>
       </Link>
       <Link href="/abogados">
         <div className="menu-item">Abogados</div>
@@ -40,6 +40,7 @@ const Header = () => {
       <Link href="/contactos">
       <div className="menu-item">Contactos</div>
       </Link>
+      </div>
       <img src="/images/IconoB_preview_rev_1.png" className="icono" alt="Descripción de la imagen"/>
       <img src="/images/Sesion.png" className="imagen" alt="Descripción de la imagen"/>
       <div className="container-sesion">

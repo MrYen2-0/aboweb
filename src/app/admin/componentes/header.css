@@ -15,7 +15,11 @@
   text-align: left;
   margin: 0 0px;
 }
+.contenedor-header a{
+  height: auto;
+  text-decoration: none; /* Quita la línea subrayada */
 
+}
 .contenedor-header .separator {
   width: 68px;
   height: 1px;

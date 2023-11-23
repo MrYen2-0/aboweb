@@ -1,4 +1,4 @@
-.contenedor-titulo {
+.contenedor-titulofirmas {
   display: flex;
   width: auto;
   height: auto;
@@ -44,18 +44,18 @@
   height: auto;
   display: flex; /* Hacer que los elementos hijos se distribuyan verticalmente */
   flex-direction: column; /* Alineación vertical */
-  margin-left: 250px;
+  margin-left: 100px;
 
 }
 
 .imagen-firmas{
-  width: 40%;
+  width: 47%;
   height: 400px;
 float: left;
 }
 
 .texto-firmas {
-width: 50%;
+width: 42%;
 height: auto; /* O ajusta el ancho que desees */
 float: right; 
 clear: both;
@@ -83,7 +83,7 @@ margin: 30px;
 padding-top: 45px;
 }
 .v1_56{
-  width: 65%;
+  width: 85%;
   height: auto;
   background: rgb(222, 222, 222);
   margin-bottom: 60px;

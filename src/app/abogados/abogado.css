@@ -1,4 +1,4 @@
-.contenedor-titulo {
+.contenedor-tituloabogados {
     display: flex;
     width: auto;
     height: auto;
@@ -60,7 +60,7 @@
 }
 .cuadros-abogados{
     width: 28%;
-    height: 1000%;
+    height: auto;
     background: rgba(196, 196, 196, 1);
     margin-right: 30px;
     padding: 10px;
@@ -86,19 +86,19 @@
   margin-right: 20px;
 }
 .titulo-abogado {
-  font-size: 24px; /* Tamaño de fuente para el título */
+  font-size: 20px; /* Tamaño de fuente para el título */
   font-weight: bold; /* Texto en negrita */
   color: #333; /* Color del texto, puedes ajustarlo según tu diseño */
 }
 
 .descripcion-abogado {
-  font-size: 17px; /* Tamaño de fuente para la descripción */
+  font-size: 14px; /* Tamaño de fuente para la descripción */
   color: #666; /* Color del texto, puedes ajustarlo según tu diseño */
   line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
 }
 .areas-abogado{
-  width: 30%;
-  margin: 10px;
-  padding-top: 265px;
+  width: 40%;
+  margin: 0px;
+  padding-top: 30%;
 }
 

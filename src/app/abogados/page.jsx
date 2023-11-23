@@ -8,7 +8,7 @@ function Page() {
       <div>
       <Header />
     </div>
-<div className="contenedor-titulo">
+<div className="contenedor-tituloabogados">
   <div className="titulos">
     <div className="titulo3">Abogados </div>
     <div className="titulo4">De la firma</div>
