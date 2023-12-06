@@ -1,0 +1,116 @@
+  .contenedor-edificiotitulo {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: flex-start;
+    padding: 40px;
+  }
+  
+  .titulos {
+    display: flex; /* Utiliza flexbox para alinear elementos horizontalmente */
+    flex-direction: column; /* Apila elementos verticalmente */
+    margin: 0 200px; /* Agrega un margen a la izquierda y a la derecha */
+    margin-top: 160px;
+  }
+  
+  
+  .v1_22 {
+    width: auto; /* Ancho automático en función del contenido */
+    color: rgba(189, 189, 189, 1);
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 64px;
+    opacity: 1;
+    text-align: left;
+    margin-right: 20px; /* Espacio entre los elementos */
+  }
+  
+  .v1_23 {
+    width: 267px;
+    color: rgba(0, 102, 255, 0.81);
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 64px;
+    opacity: 1;
+    text-align: left;
+    margin-right: 20px;
+  }
+  .contenedor-edificios-oficinas {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    overflow: hidden;
+    align-items: center;
+    
+  }
+
+  .imagenes-info {
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between; /* Distribuye el espacio entre las imágenes */
+    width: 75%;
+    height: auto;
+  }
+  
+  .imagenes-oficinas {
+    width: calc((100% - 40px) / 3); /* Calcula el ancho para 3 columnas con márgenes */
+    height: 300px;
+    margin-bottom: 10px;
+    background: rgba(196, 196, 196, 1);
+    opacity: 1;
+    overflow: hidden;
+    position: relative; /* Nuevo */
+  }
+  
+  .imagenes-edificios{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    background: rgba(196, 196, 196, 1);
+    opacity: 1;
+    overflow: hidden;
+    transition: transform 0.5s; /* Nuevo */
+  }
+  imagenes-oficinas:hover .imagenes-edificios {
+    transform: scale(1.1); /* Nuevo */
+  }
+  
+  .imagenes-oficinas::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s; /* Nuevo */
+  }
+  
+  .imagenes-oficinas:hover::before {
+    opacity: 1; /* Nuevo */
+  }
+  .v1_74 {
+    width: 221px;
+    height: 71px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 694px;
+    left: 948px;
+    overflow: hidden;
+  }
+  .v1_77 {
+    width: 109px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }

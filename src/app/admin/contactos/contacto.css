@@ -56,15 +56,39 @@
 
 }
 
-.contenedor-usuarios {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 20px;
+button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
 }
 
+.contenedor-usuarios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Estilos para la tarjeta de usuario */
 .usuario {
-  border: 1px solid #ccc;
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la sección de citas */
+.cita {
+  margin-top: 10px;
   padding: 10px;
-  border-radius: 5px;
+  background-color: #f39c12;
+  border-radius: 4px;
+}
+
+.boton-request{
+  width: 20%;
+  margin-left: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }

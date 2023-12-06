@@ -5,6 +5,11 @@
     align-items: center;
     background: rgba(255, 255, 255, 1);
   }
+
+  .disabled{
+    background-color: darkgray;
+  }
+
   .container-menuinicio {
     width: 70%;
     display: flex;
@@ -14,14 +19,14 @@
   }
 
   .container-menuinicio a{
-    width: 50%;
+    width: 20%;
     height: auto;
     text-decoration: none; /* Quita la línea subrayada */
 
   }
 
   .container-menuinicio .menu-item {
-    padding: 20px 100px;
+    padding: 20px 40px;
     font-size: 20px;
     background-color: transparent;
     transition: background-color 0.3s ease;
@@ -60,7 +65,7 @@
     top: 0px;
     right: 0px;
   }
-  .login-modal-sesion {
+  .login-modal-sesion, .register-modal {
     display: flex;
     align-items: center;
     position: fixed;
@@ -69,11 +74,10 @@
     bottom: 0;
     left: 0;
     animation: fadeIn 0.5s;
-    width: 280px;
+    width: 300px;
     height: auto;
     background-color: #fff;
     border: 2px solid #cccccc84;
-    z-index: 100;
 
   }
   
@@ -136,10 +140,18 @@
   .register-link:hover {
     color: blue;
   }
-  .Alert {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 100;
+
+  .profile-modal {
+    position: fixed; /* Fija la posición del modal */
+    top: 0; /* Alinea el modal con la parte superior de la página */
+    right: 0; /* Alinea el modal con el lado derecho de la página */
+    width: 300px; /* Ajusta el ancho del modal a tu preferencia */
+    height: auto; /* Permite que el modal se ajuste a su contenido */
+    z-index: 9999; /* Asegura que el modal esté por encima de todo lo demás en la páginaa que el modal esté por encima de todo lo demás en la página */
   }
   
+  .profile-content {
+    background-color: white; /* Proporciona un fondo blanco para el contenido del modal */
+    padding: 20px; /* Proporciona algo de relleno alrededor del contenido del modal */
+    border-radius: 10px; /* Redondea las esquinas del contenido del modal */
+  }

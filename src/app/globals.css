@@ -1,11 +1,19 @@
 
-body {
+body, #root {
   font-size: 14px;
   margin: 0; /* Eliminar los márgenes predeterminados del cuerpo */
   padding: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
   background: rgba(255,255,255,1);
+}
+.button-chat {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 20%;
+  height: 10%;
+  margin: 0;
 }
 .Cotenedor-global {
   width: 100%;

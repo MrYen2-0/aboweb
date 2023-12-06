@@ -1,0 +1,104 @@
+.contenedor-tituloabogados {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+    margin-top: 160px;
+}
+
+.titulo3 {
+    width: auto;
+    color: rgba(189, 189, 189, 1);
+    font-family: Roboto;
+    font-weight: light;
+    font-size: 64px;
+    opacity: 1;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.titulo4 {
+    width: auto;
+    color: rgba(0, 102, 255, 0.81);
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 64px;
+    opacity: 1;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.v1_24 {
+    width: 673px;
+    height: 724px;
+    background: rgba(196, 196, 196, 1);
+    opacity: 1;
+    top: 230px;
+    left: 570px;
+    overflow: hidden;
+}
+
+.contenedor-abogados {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.imagenes-abogados {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-left: 50px;
+
+}
+.cuadros-abogados{
+    width: 28%;
+    height: auto;
+    background: rgba(196, 196, 196, 1);
+    margin-right: 30px;
+    padding: 10px;
+}
+.imagen-abogado{
+  width: 40%;
+  height: 60%;
+  margin-top: 10px;
+  float: left;
+}
+.persona-abogado{
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+.texto-abogado {
+  width: 40%;
+  height: auto; /* O ajusta el ancho que desees */
+  float: right; 
+  clear: both;
+  align-self: flex-start;
+  margin-top: 45px;
+  margin-right: 20px;
+}
+.titulo-abogado {
+  font-size: 20px; /* Tamaño de fuente para el título */
+  font-weight: bold; /* Texto en negrita */
+  color: #333; /* Color del texto, puedes ajustarlo según tu diseño */
+}
+
+.descripcion-abogado {
+  font-size: 14px; /* Tamaño de fuente para la descripción */
+  color: #666; /* Color del texto, puedes ajustarlo según tu diseño */
+  line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
+}
+.areas-abogado{
+  width: 40%;
+  margin: 0px;
+  padding-top: 30%;
+}
+

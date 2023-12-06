@@ -1,0 +1,176 @@
+
+.contenedor-titulo {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: flex-start;
+    margin: 40px;
+    padding: 0;
+    margin-bottom: 20%;
+  }
+  /* Estilos para el título */
+  .titulos {
+    display: flex;
+    flex-direction: column;
+    margin: 0 200px;
+    margin-top: 100px;
+  }
+  
+  .v1_22, .v1_23 {
+    width: auto;
+    font-family: Roboto;
+    font-size: 65px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .v1_22 {
+    color: rgba(189, 189, 189, 1);
+    font-weight: Light;
+  }
+  
+  .v1_23 {
+    width: 267px;
+    color: rgba(0, 102, 255, 0.81);
+    font-weight: Bold;
+    margin-right: 0px;
+  }
+  
+  .titulo-edificio {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .carousel .slide {
+    background: none;
+  }
+  
+  
+  /* Estilos para la información */
+  .contenedor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .imagenes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 25px;
+    margin: 2%;
+
+    background-color: rgba(192, 192, 192, 0.632);
+
+  }
+  
+  .oficinas1 {
+    width: 24%;
+    height: 240px;
+    margin-right: 20px;
+  }
+  
+  .texto-info {
+    width: 40%;
+    padding: 0px;
+    align-items: center;
+  }
+  
+  .info-titulo {
+    width: 90%;
+      color: rgba(57, 57, 57, 0.704);
+      font-family: Roboto;
+      font-weight: Light;
+      font-size: 30px;
+      text-align: left;
+  }
+  
+  .info-descripcion {
+    width: 80%;
+      color: rgba(0, 0, 0, 1);
+      font-family: Roboto;
+      font-weight: Light;
+      font-size: 14px;
+      text-align: left;
+  }
+  
+  /* Estilos para el edificio */
+  .contenedor-resumen{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20%;
+
+  }
+  
+  .resumen-info {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resumen-info h2 {
+  color: rgba(102, 102, 102, 0.599);
+  width: 100%;
+}
+
+.texto-oficina {
+  text-align: center;
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.texto-oficina a {
+  text-align: center;
+  font-size: 15px;
+  width: 80%;
+  margin: 0;
+}
+.contenedor-edificios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .imagenes-edificio, .imagenes-edificio2 {
+    width: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .imagenes-edificio{
+    margin-block: 1%;
+
+  }
+  
+  .edificio, .edificio-3 {
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+    transition: transform 0.5s ease;
+
+  }
+ 
+  
+  .edificio {
+    width: 35%;
+
+  }
+  
+  .edificio-3 {
+    width: 23%;
+  }
+  
+  .edificio:hover, .edificio-3:hover {
+    transform: scale(1.05);
+  }
+  

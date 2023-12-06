@@ -26,7 +26,7 @@ const ProfileModal = ({ onClose, user }) => {
 };
 
 const App = () => {
-  
+
   const [user, setUser] = useState({ name: '', email: '' });
 
   const [showProfile, setShowProfile] = useState(true);

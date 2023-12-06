@@ -1,27 +1,17 @@
 "use client";
 import '../galeria/galeria.css';
-import Headeradmin from '../componentes/Headeradmin';
+import Header from '../componentes/Header';
 import React from 'react';
 import Zoom from '../componentes/Zoom';
-import { useEffect } from 'react';
 
 function Page() {
-
-  useEffect(() => {
-    const usuario = JSON.parse(localStorage.getItem('authToken'));
-
-    if (!usuario || !usuario.tipoUsuario === "admin") {
-      window.location.href = "/";
-    }
-  }, []);
-
   return (
     <div>
       <div className="Contenedor-global">
       <div>
-      <Headeradmin />
+      <Header/>
     </div>
-    <div className="contenedor-edificiotitulo">
+<div className="contenedor-edificiotitulo">
   <div className="titulos">
     <div className="v1_22">Edificio & </div>
     <div className="v1_23">Oficinas</div>

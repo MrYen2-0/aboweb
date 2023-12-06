@@ -1,0 +1,92 @@
+.contenedor-titulofirmas {
+  display: flex;
+  width: auto;
+  height: auto;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.titulos {
+  display: flex;
+  flex-direction: column;
+  margin: 0 150px;
+  margin-top: 160px;
+}
+.v1_22 {
+  width: auto; /* Ancho automático en función del contenido */
+  color: rgba(189, 189, 189, 1);
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 65px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v1_23 {
+  width: 267px;
+  color: rgba(0, 102, 255, 0.81);
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 65px;
+  opacity: 1;
+  text-align: left;
+  margin-right: 0px;
+}
+
+.contenedor-firmas {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.imagenes-firmas {
+  width: 100%;
+  height: auto;
+  display: flex; /* Hacer que los elementos hijos se distribuyan verticalmente */
+  flex-direction: column; /* Alineación vertical */
+  margin-left: 100px;
+
+}
+
+.imagen-firmas{
+  width: 47%;
+  height: 400px;
+float: left;
+}
+
+.texto-firmas {
+width: 42%;
+height: auto; /* O ajusta el ancho que desees */
+float: right; 
+clear: both;
+align-self: flex-start;
+margin-top: 45px;
+margin-right: 30px;
+}
+.titulo-firmas {
+font-size: 24px; /* Tamaño de fuente para el título */
+font-weight: bold; /* Texto en negrita */
+color: #333; /* Color del texto, puedes ajustarlo según tu diseño */
+margin-bottom: 50px; /* Espacio inferior entre el título y la descripción */
+}
+
+.descripcion-firmas {
+font-size: 16px; /* Tamaño de fuente para la descripción */
+color: #666; /* Color del texto, puedes ajustarlo según tu diseño */
+line-height: 1.5; /* Espaciado entre líneas para una mejor legibilidad */
+margin-right: 50px;
+
+}
+.areas-abogado{
+width: 170px;
+margin: 30px;
+padding-top: 45px;
+}
+.v1_56{
+  width: 85%;
+  height: auto;
+  background: rgb(222, 222, 222);
+  margin-bottom: 60px;
+}
+
+

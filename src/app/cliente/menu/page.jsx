@@ -1,18 +1,8 @@
 "use client";
 import './menu.css';
-import Header from './componentes/Header';  
+import Header from '../componentes/Header';  
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
-/*const socket = io('http://localhost:9000');
-
-socket.on('connect', () => {
-  console.log("socket conectado con exito");
-});
-socket.on('disconnect', () => {
-  console.log("desconectando socket");
-});
-*/
 function Page() {
   const mission = "Cuidado y defensa de los intereses de nuestros clientes en materia del trabajo.";
   const values = "son: profesionalismo, honradez, calidad en el servicio, lealtad. Ofrecemos defensa en";
@@ -41,7 +31,7 @@ function Page() {
       <Header />
       <div className="contenedor-titulo">
         <div className="titulos">
-          <div className="v1_22">García & </div>
+          <div className="v1_22">Garcia & </div>
           <div className="v1_23">Caceres Gonzales</div>
         </div>
         <div className="titulo-edificio">
@@ -55,6 +45,7 @@ function Page() {
       <div>
         <img src="/images/edificio13.jpg" alt="Edificio 3"/>
       </div>
+      {/* Puedes agregar más imágenes aquí */}
     </Carousel>
   </div>
       </div>

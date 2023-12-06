@@ -71,3 +71,17 @@ button:hover {
   justify-content: center; /* Centra los botones horizontalmente */
   gap: 20px; /* Espacio entre los botones */
 }
+.profile-modal {
+  position: fixed; /* Fija la posición del modal */
+  top: 0; /* Alinea el modal con la parte superior de la página */
+  right: 0; /* Alinea el modal con el lado derecho de la página */
+  width: 300px; /* Ajusta el ancho del modal a tu preferencia */
+  height: auto; /* Permite que el modal se ajuste a su contenido */
+  z-index: 9999; /* Asegura que el modal esté por encima de todo lo demás en la páginaa que el modal esté por encima de todo lo demás en la página */
+}
+
+.profile-content {
+  background-color: white; /* Proporciona un fondo blanco para el contenido del modal */
+  padding: 20px; /* Proporciona algo de relleno alrededor del contenido del modal */
+  border-radius: 10px; /* Redondea las esquinas del contenido del modal */
+}
