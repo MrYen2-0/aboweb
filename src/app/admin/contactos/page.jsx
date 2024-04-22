@@ -1,7 +1,6 @@
-"use client";
 import '../contactos/contacto.css';
 import Headeradmin from '../componentes/Headeradmin';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { io } from 'socket.io-client';
 
@@ -26,19 +25,19 @@ function Page() {
     }
   }
 
+  const [usuarios,setUsuarios] = useState([]);
+  const [botonBusquedaDesactivado, setBotonBusquedaDesactivado] = useState(false);
+  const [datoBusqueda,setDatobusqueda] = useState('');
+
+  useEffect(() => {
     const usuario = JSON.parse(localStorage.getItem('authToken'));
 
     if (!usuario || !usuario.tipoUsuario === "admin") {
       window.location.href = "/";
     }
-
-
-  const [usuarios,setUsuarios] = useState([]);
-  const [botonBusquedaDesactivado, setBotonBusquedaDesactivado] = useState(false);
-  const [datoBusqueda,setDatobusqueda] = useState('');
+  }, []);
 
   const displayUsuarios = async() => {
-
     await axios.get('http://localhost:9000/usuario/getAll').then((response) => {
 
       if(response.data.resultado.length === 0){
@@ -83,7 +82,6 @@ function Page() {
   },[]);
 
   const filter = async(e) => {
-
     e.preventDefault();
 
     setUsuarios([]);
