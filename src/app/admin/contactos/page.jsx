@@ -1,3 +1,4 @@
+"use client";
 import '../contactos/contacto.css';
 import Headeradmin from '../componentes/Headeradmin';
 import { useEffect, useState } from 'react';
