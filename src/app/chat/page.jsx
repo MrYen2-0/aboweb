@@ -1,4 +1,3 @@
-"use client";
 import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 import "./chat.css";
@@ -7,6 +6,22 @@ import axios from "axios";
 const socket = io("http://localhost:9000");
 
 function Chat() {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  useEffect(() => {
+    if (isClient) {
+      let usuario = JSON.parse(localStorage.getItem("authToken"));
+
+      if (!usuario) {
+        window.location.href = "/";
+      }
+    }
+  }, [isClient]);
+
   const requerirInformacionChat = async (chatMateId) => {
     await axios
       .get(`http://localhost:9000/usuario/requerirInfo/${chatMateId}`)
@@ -27,12 +42,6 @@ function Chat() {
         alert("error" + error.message);
       });
   };
-
-  let usuario = JSON.parse(localStorage.getItem("authToken"));
-
-  if (!usuario) {
-    window.location.href = "/";
-  }
 
   const [mensaje, setMensaje] = useState("");
   const [chat, setChat] = useState([{ mensaje: "", remitente: "" }]);
@@ -59,9 +68,11 @@ function Chat() {
       socket.off("connect", () => setIsConnected(false));
       socket.off("enviar_mensaje");
       socket.off("confirmar_chat");
-      localStorage.removeItem("_id");
+      if (isClient) {
+        localStorage.removeItem("_id");
+      }
     };
-  }, []);
+  }, [isClient]);
 
   const handleEnter = (e) => {
     if (e.key === "Enter" && mensaje.trim() !== "") {
